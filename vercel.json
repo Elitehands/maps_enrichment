@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "api/*.py": {
+      "runtime": "python3.14"
+    }
+  },
+  "builds": [
+    { "src": "frontend/package.json", "use": "@vercel/static-build" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/main.py" },
+    { "src": "/(.*)", "dest": "frontend/dist/$1" }
+  ],
+  "env": {
+    "FASTAPI_ENV": "production"
+  }
+}

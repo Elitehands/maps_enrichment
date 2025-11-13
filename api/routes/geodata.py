@@ -17,7 +17,7 @@ async def load_geodata():
 router = APIRouter()
 
 
-@router.get("/geodata", response_class=JSONResponse)
+@router.get("/api/geodata", response_class=JSONResponse)
 async def read_geodata():
     data = await load_geodata()
     return data

@@ -1,0 +1,5 @@
+fastapi[standard]==0.113.0
+pydantic==2.8.0
+shapely==2.1.2
+pandas==2.3.3
+openlocationscode==1.0.1
