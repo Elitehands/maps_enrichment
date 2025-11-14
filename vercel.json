@@ -20,7 +20,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "web/dist/$1"
+      "dest": "dist/$1"
     }
   ]
 }
