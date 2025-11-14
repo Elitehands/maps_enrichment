@@ -9,7 +9,7 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/main.py" },
-    { "src": "/(.*)", "dest": "frontend/dist/$1" }
+    { "src": "/(.*)", "dest": "web/dist/$1" }
   ],
   "env": {
     "FASTAPI_ENV": "production"
