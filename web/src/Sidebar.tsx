@@ -6,7 +6,7 @@ import { useMap } from './context/MapContext/MapContext'
 
 export default function Sidebar() {
     const { map } = useMap()
-    const data = useGeoJSON('http://localhost:8000/api/geodata')
+    const data = useGeoJSON('/api/geodata')
     return (
         <section className="h-screen w-1/2 overflow-hidden">
             <header className='flex flex-col gap-1 justify-center p-8 items-center border-b border-gray-200'>

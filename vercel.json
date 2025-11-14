@@ -1,17 +1,26 @@
 {
-  "functions": {
-    "api/*.py": {
-      "runtime": "python3.14"
-    }
-  },
+  "version": 2,
   "builds": [
-    { "src": "web/package.json", "use": "@vercel/static-build" }
+    {
+      "src": "./api/main.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "./web/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "./web/dist"
+      }
+    }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/main.py" },
-    { "src": "/(.*)", "dest": "web/dist/$1" }
-  ],
-  "env": {
-    "FASTAPI_ENV": "production"
-  }
+    {
+      "src": "/api/(.*)",
+      "dest": "./api/main.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "./web/dist/index.html"
+    }
+  ]
 }

@@ -1,6 +1,5 @@
 .venv
 .vscode
 data
-out
 __pycache__/
 *.py[cod]

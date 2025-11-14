@@ -23,7 +23,7 @@ function addMarkers(data: FeatureCollection<Geometry, GeoJsonProperties> | null,
     })
 }
 export default function Map() {
-    const geojson = useGeoJSON('http://localhost:8000/api/geodata');
+    const geojson = useGeoJSON('/api/geodata');
     const { map } = useMap()
     useEffect(() => {
         if (!(map && geojson)) return
