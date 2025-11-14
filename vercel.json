@@ -6,7 +6,7 @@
       "use": "@vercel/python"
     },
     {
-      "src": "web/vite.config.js",
+      "src": "web/package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "web/dist"
