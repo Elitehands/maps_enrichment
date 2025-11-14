@@ -5,7 +5,7 @@
     }
   },
   "builds": [
-    { "src": "frontend/package.json", "use": "@vercel/static-build" }
+    { "src": "web/package.json", "use": "@vercel/static-build" }
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/main.py" },
