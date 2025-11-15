@@ -15,18 +15,9 @@ OVERPASS_API_URL = "https://overpass.openstreetmap.fr/api/interpreter"
 class RuntimeInfo(BaseModel):
     message: str
 
-
-class GeoData(BaseModel):
-    type: str = "Feature"
-    geometry: Geometry
-    bbox: list[float]|None = None
-    properties: Properties
-
-
 class Geometry(BaseModel):
     type: str
     coordinates: list[list[list[float]] |list[list[list[float]]]]
-
 
 class Properties(BaseModel):
     osm_id: int | None = None
@@ -36,6 +27,12 @@ class Properties(BaseModel):
     address: str | None = None
     country_code: str | None = None
     country: str | None = None
+
+class GeoData(BaseModel):
+    type: str = "Feature"
+    geometry: Geometry
+    bbox: list[float]|None = None
+    properties: Properties
 
 
 # Decorator to print out any custom messages returned by functions durring runtime

@@ -1,4 +1,4 @@
-import geocode.geocode_utils as osm
+import api.geocode.geocode_utils as osm
 import time
 import os
 import json
