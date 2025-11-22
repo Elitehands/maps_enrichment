@@ -1,14 +1,16 @@
 import pycountry
-import api.geocode.geocode_utils as osm
+import geocode.geocode_utils as osm
 import time
 import os
 import json
+
+# All imports with api.* are added for production purposes as imports fail without it
 
 from fastapi import FastAPI
 from api.routes.geodata import router as polygon_router
 from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
-from api.config import  GEODATA_PATH, LOCATIONS_PATH_EXCEL, LOCATIONS_PATH_CSV
+from api.config import GEODATA_PATH, LOCATIONS_PATH_EXCEL, LOCATIONS_PATH_CSV
 
 
 async def load_geodata_excel():
@@ -56,7 +58,6 @@ async def load_geodata_csv():
                 output.append(data.model_dump())
     return output
 
-
 async def get_us_locations(filter: str):
     us_states = [sub.code for sub in pycountry.subdivisions if sub.country_code == "US"] # type: ignore
     output = []
@@ -72,7 +73,7 @@ async def lifespan(app: FastAPI):
     if not os.path.exists(GEODATA_PATH):
         output = {}
         csv_data = await load_geodata_csv()
-        overpass_data = await get_us_locations("Nestl(e[\u0301]?|é)( Purina)?|Nespresso")
+        overpass_data = await get_us_locations("^(Nestl(e[\u0301]?|é)( |$).*|Purina$|Nespresso$)")
         
         for feature in csv_data:
             output['type'] = "FeatureCollection"
@@ -90,7 +91,6 @@ async def lifespan(app: FastAPI):
             json.dump(output, geocode, indent=4)
     yield
 
-
 app = FastAPI(lifespan=lifespan)
 
 # Configure CORS to allow requests from frontend
@@ -98,8 +98,6 @@ app = FastAPI(lifespan=lifespan)
 #     "http://localhost:5173",  
 #     "http://127.0.0.1:5173",  
 # ]
-
-
 
 app.add_middleware(
     CORSMiddleware,

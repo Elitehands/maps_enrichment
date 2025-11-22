@@ -8,20 +8,15 @@ from openlocationcode import openlocationcode as olc
 from shapely import MultiPolygon
 from shapely.geometry import Point, Polygon
 
+# Constants
 NOMINATIM_REVERSE_GEOCODING_URL = "https://nominatim.openstreetmap.org/reverse"
 UNITED_KINGDOM_POSTCODES_API_URL = "https://api.postcodes.io/postcodes/"
 OVERPASS_API_URL = "https://overpass.private.coffee/api/interpreter"
 
-
-class RuntimeInfo(BaseModel):
-    message: str
-
+# Types
 class Geometry(BaseModel):
     type: str
-    coordinates: Union[
-        List[List[List[float]]],      
-        List[List[List[List[float]]]] 
-    ]
+    coordinates: Union[List[List[List[float]]], List[List[List[List[float]]]]]
 
 class Properties(BaseModel):
     osm_id: int | None = None
@@ -39,20 +34,7 @@ class GeoData(BaseModel):
     properties: Properties
 
 
-# Decorator to print out any custom messages returned by functions durring runtime
-def logger(f):
-    def get_runtime_info(*args):
-        data = f(*args)
-        if type(data) is RuntimeInfo:
-            print(data.message)
-        else:
-            return data
-
-    return get_runtime_info
-
-
-@logger
-def overpass_fetch_nearest_feature(lat: float, lon: float, radius: int = 30) -> GeoData | RuntimeInfo:
+def overpass_fetch_nearest_feature(lat: float, lon: float, radius: int = 30) -> GeoData | None:
     query = f"""
                 [out:json];
                 (
@@ -107,13 +89,13 @@ def overpass_fetch_nearest_feature(lat: float, lon: float, radius: int = 30) -> 
                 
                 continue
     except Exception as e:
-        return RuntimeInfo(message=f"An error has occured: {e}")
-    return RuntimeInfo(message=f"No data was found within the specified radius. Current radius: {radius} meters.")
-
+        print(f"An error has occured: {e}")
+        return None
+    print(f"No data was found within the specified radius. Current radius: {radius} meters.")
+    return None
 
 # If a short code is passed, it will only decode it correctly if it is in the UK.
-@logger
-def plus_code_decoder(code: str, post_code: str = "") -> tuple[float, float] | RuntimeInfo:
+def plus_code_decoder(code: str, post_code: str = "") -> tuple[float, float] | None:
     match code:
         case code if olc.isFull(code):
             lat, lon = olc.decode(code).latitudeCenter, olc.decode(code).longitudeCenter
@@ -121,7 +103,8 @@ def plus_code_decoder(code: str, post_code: str = "") -> tuple[float, float] | R
         case code if olc.isShort(code):
             # Need to get the area info from postcode API to decode short codes
             if not post_code:
-                return RuntimeInfo(message="Postcode required for short plus codes.")
+                print("Postcode required for short plus codes.")
+                return None
 
             r = fetch.get(f"{UNITED_KINGDOM_POSTCODES_API_URL}{post_code}", timeout=10)
             if r.status_code == 200:
@@ -137,12 +120,14 @@ def plus_code_decoder(code: str, post_code: str = "") -> tuple[float, float] | R
                     )
                     return lat, lon
                 else:
-                    return RuntimeInfo(message="Postcode API returned no result.")
+                    print("Postcode API returned no result.")
+                    return None 
             else:
-                return RuntimeInfo(message=f"Postcode API request failed. Status code: {r.status_code}")
+                print(f"Postcode API request failed. Status code: {r.status_code}")
+                return None
         case _:
-            return RuntimeInfo(message=f"Invalid plus code format. Received: {code}")
-
+            print(f"Invalid plus code format. Received: {code}")
+            return None 
 
 def get_filtered_dataset(file: Path | str, filter: str, file_type: Literal["csv", "excel"]) -> pd.DataFrame | None:
     match file_type:
@@ -164,9 +149,7 @@ def get_filtered_dataset(file: Path | str, filter: str, file_type: Literal["csv"
             except Exception as e:
                 print("An error occured:", e)
 
-
-@logger
-def geocode_nominatim_boundary(lat: float, lon: float) -> GeoData | RuntimeInfo:
+def geocode_nominatim_boundary(lat: float, lon: float) -> GeoData | None:
     options = {
         "params": {
             "lat": lat,
@@ -229,18 +212,18 @@ def geocode_nominatim_boundary(lat: float, lon: float) -> GeoData | RuntimeInfo:
 
             # Only use polygon data and no converting bbox to polygon, yet...
             if not geometry.get("type") == "Polygon":
-                message = RuntimeInfo(message=f"Dropped:{geometry['type']}")
-                return message
+                message =message=f"Dropped:{geometry['type']}"
+                print(message)
+                return
 
             return GeoData(geometry=Geometry(**geometry), bbox=bbox, properties=props)
-
+        
     except Exception as e:
-        return RuntimeInfo(message=f"An error has occured: , {e}")
+        print(f"An error has occured: , {e}")
 
-    return RuntimeInfo(message="No Operation Performed.")
+    print("No operation performed")
 
-@logger
-def overpass_get_locations(country_code: str, regex: str, timeout: int = 1200):
+def overpass_get_locations(country_code: str, regex: str, timeout: int = 1200) -> list[GeoData] | None:
     query = """
             [out:json][timeout:{timeout}];
             area["ISO3166-2"="{country_code}"]->.searchArea;
@@ -257,9 +240,14 @@ def overpass_get_locations(country_code: str, regex: str, timeout: int = 1200):
     header = {"User-Agent": "Nestle-Location-Intelligence-POC/1.0"}
     try:
         print(f"Searching {country_code}")
-        response = fetch.post(OVERPASS_API_URL, data=query, headers=header)
+        response = fetch.post(OVERPASS_API_URL, data={"data":query}, headers=header)
         response.raise_for_status()
         print(f'Status Code:{response.status_code}')
+        
+        if "application/json" not in response.headers.get("Content-Type", ""):
+            print("Non JSON response received\n")  
+            return
+        
         data = response.json()
         features = []
         count = 0
@@ -291,15 +279,15 @@ def overpass_get_locations(country_code: str, regex: str, timeout: int = 1200):
                         tags = el.get("tags", {})
                         
                         company_name = tags.get('name') or tags.get('brand', '')
-                        country = c.name if (c := pycountry.countries.get(alpha_2=country_code.split("-")[0])) else ""                
-                        city = c.name if ( c:= pycountry.subdivisions.get(code=country_code)) else '' # type: ignore
+                        country = c.name if (c:= pycountry.countries.get(alpha_2=country_code.split("-")[0])) else ""                
+                        city = c.name if (c:= pycountry.subdivisions.get(code=country_code)) else '' # type: ignore
                         
                         address = f'{city}, {country}'
                         
                         props = Properties(
                             osm_id=el.get("id", ""),
                             company_name=company_name,
-                            entity_type='Branch', # Tag all as branch as placeholder
+                            entity_type='Branch', # Tag all as branch as placeholder in the absence of better data
                             country_code=country_code.split('-')[0],
                             country=country,
                             address=address
@@ -312,4 +300,3 @@ def overpass_get_locations(country_code: str, regex: str, timeout: int = 1200):
         return features
     except Exception as e:
         print(f"An error has occured: {e}")
-

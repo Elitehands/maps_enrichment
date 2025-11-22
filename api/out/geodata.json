@@ -41,7 +41,7 @@
                 "osm_type": "way",
                 "company_name": "Tailsco limited",
                 "entity_type": "Subsidiary",
-                "address": "North SheenUnited Kingdom",
+                "address": "North Sheen, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -102,7 +102,7 @@
                 "osm_type": "way",
                 "company_name": "Republic of cats limited",
                 "entity_type": "Subsidiary",
-                "address": "SloughUnited Kingdom",
+                "address": "Slough, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -191,7 +191,7 @@
                 "osm_type": "way",
                 "company_name": "Nestle purina uk manufacturing operations limited",
                 "entity_type": "Branch",
-                "address": "SuffolkUnited Kingdom",
+                "address": "Suffolk, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -300,7 +300,7 @@
                 "osm_type": "way",
                 "company_name": "Nestle purina uk manufacturing operations limited",
                 "entity_type": "Branch",
-                "address": "West BerkshireUnited Kingdom",
+                "address": "West Berkshire, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -361,7 +361,7 @@
                 "osm_type": "way",
                 "company_name": "Nestle purina uk manufacturing operations limited",
                 "entity_type": "Branch",
-                "address": "New MaldenUnited Kingdom",
+                "address": "New Malden, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -406,7 +406,7 @@
                 "osm_type": "way",
                 "company_name": "Nestle purina uk manufacturing operations limited",
                 "entity_type": "Branch",
-                "address": "HertfordshireUnited Kingdom",
+                "address": "Hertfordshire, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -519,7 +519,7 @@
                 "osm_type": "way",
                 "company_name": "Nestl\u00e9 waters uk limited",
                 "entity_type": "Branch",
-                "address": "HampshireUnited Kingdom",
+                "address": "Hampshire, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -584,7 +584,7 @@
                 "osm_type": "way",
                 "company_name": "Vitaflo (international) limited",
                 "entity_type": "Branch",
-                "address": "DingleUnited Kingdom",
+                "address": "Dingle, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -645,7 +645,7 @@
                 "osm_type": "way",
                 "company_name": "Lily's kitchen limited",
                 "entity_type": "Subsidiary",
-                "address": "BloomsburyUnited Kingdom",
+                "address": "Bloomsbury, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -1520,7 +1520,7 @@
                 "osm_type": "relation",
                 "company_name": "Simplycook limited",
                 "entity_type": "Subsidiary",
-                "address": "City of LondonUnited Kingdom",
+                "address": "City of London, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -1565,7 +1565,7 @@
                 "osm_type": "way",
                 "company_name": "Nestle uk ltd.",
                 "entity_type": "Branch",
-                "address": "SwanseaUnited Kingdom",
+                "address": "Swansea, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -1610,7 +1610,7 @@
                 "osm_type": "way",
                 "company_name": "Nestle uk ltd.",
                 "entity_type": "Branch",
-                "address": "CumberlandUnited Kingdom",
+                "address": "Cumberland, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -1839,7 +1839,7 @@
                 "osm_type": "way",
                 "company_name": "Nestle uk ltd.",
                 "entity_type": "Branch",
-                "address": "DerbyshireUnited Kingdom",
+                "address": "Derbyshire, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -2076,7 +2076,7 @@
                 "osm_type": "way",
                 "company_name": "Nestle uk ltd.",
                 "entity_type": "Branch",
-                "address": "LeicestershireUnited Kingdom",
+                "address": "Leicestershire, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -2141,7 +2141,7 @@
                 "osm_type": "way",
                 "company_name": "Nestle uk ltd.",
                 "entity_type": "Branch",
-                "address": "ClaremountUnited Kingdom",
+                "address": "Claremount, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -2186,7 +2186,7 @@
                 "osm_type": "way",
                 "company_name": "Nestle uk ltd.",
                 "entity_type": "Branch",
-                "address": "CumberlandUnited Kingdom",
+                "address": "Cumberland, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -2239,7 +2239,7 @@
                 "osm_type": "way",
                 "company_name": "Nestle uk ltd.",
                 "entity_type": "Branch",
-                "address": "South GloucestershireUnited Kingdom",
+                "address": "South Gloucestershire, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -2368,7 +2368,7 @@
                 "osm_type": "way",
                 "company_name": "Nestec york ltd.",
                 "entity_type": "Subsidiary",
-                "address": "West SussexUnited Kingdom",
+                "address": "West Sussex, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
             }
@@ -2469,253 +2469,9 @@
                 "osm_type": "way",
                 "company_name": "Nb waters limited",
                 "entity_type": "Subsidiary",
-                "address": "City of LondonUnited Kingdom",
+                "address": "City of London, United Kingdom",
                 "country_code": "gb",
                 "country": "United Kingdom"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -90.5840026,
-                            35.8214817
-                        ],
-                        [
-                            -90.5776905,
-                            35.8216023
-                        ],
-                        [
-                            -90.5776598,
-                            35.8174074
-                        ],
-                        [
-                            -90.5777537,
-                            35.8169961
-                        ],
-                        [
-                            -90.5779228,
-                            35.8168971
-                        ],
-                        [
-                            -90.5806746,
-                            35.8168666
-                        ],
-                        [
-                            -90.5807591,
-                            35.8181156
-                        ],
-                        [
-                            -90.5839148,
-                            35.8180242
-                        ],
-                        [
-                            -90.5840026,
-                            35.8214817
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 1203412370,
-                "osm_type": null,
-                "company_name": "Nestle Frozen Foods",
-                "entity_type": "Branch",
-                "address": "Arkansas, United States",
-                "country_code": "US",
-                "country": "United States"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -111.5725734,
-                            35.2190935
-                        ],
-                        [
-                            -111.5749225,
-                            35.2194574
-                        ],
-                        [
-                            -111.5749698,
-                            35.219254
-                        ],
-                        [
-                            -111.5749915,
-                            35.2192574
-                        ],
-                        [
-                            -111.5750943,
-                            35.2188146
-                        ],
-                        [
-                            -111.5758401,
-                            35.2189301
-                        ],
-                        [
-                            -111.5757379,
-                            35.2193706
-                        ],
-                        [
-                            -111.5758857,
-                            35.2193935
-                        ],
-                        [
-                            -111.5758957,
-                            35.2193504
-                        ],
-                        [
-                            -111.5758488,
-                            35.2193431
-                        ],
-                        [
-                            -111.57589,
-                            35.2191655
-                        ],
-                        [
-                            -111.5763016,
-                            35.2192292
-                        ],
-                        [
-                            -111.5762925,
-                            35.2192688
-                        ],
-                        [
-                            -111.5763354,
-                            35.2192754
-                        ],
-                        [
-                            -111.5761954,
-                            35.2198788
-                        ],
-                        [
-                            -111.5765665,
-                            35.2199363
-                        ],
-                        [
-                            -111.5765275,
-                            35.2201044
-                        ],
-                        [
-                            -111.5764526,
-                            35.2200928
-                        ],
-                        [
-                            -111.576326,
-                            35.220638
-                        ],
-                        [
-                            -111.5762825,
-                            35.2206313
-                        ],
-                        [
-                            -111.5762476,
-                            35.2207819
-                        ],
-                        [
-                            -111.5763081,
-                            35.2207913
-                        ],
-                        [
-                            -111.5762964,
-                            35.2208414
-                        ],
-                        [
-                            -111.5761356,
-                            35.2208164
-                        ],
-                        [
-                            -111.576122,
-                            35.2208749
-                        ],
-                        [
-                            -111.5761151,
-                            35.2209046
-                        ],
-                        [
-                            -111.5758187,
-                            35.2208587
-                        ],
-                        [
-                            -111.5758258,
-                            35.220828
-                        ],
-                        [
-                            -111.5758485,
-                            35.2207303
-                        ],
-                        [
-                            -111.5752582,
-                            35.2206389
-                        ],
-                        [
-                            -111.575266,
-                            35.2206053
-                        ],
-                        [
-                            -111.5752718,
-                            35.2205805
-                        ],
-                        [
-                            -111.5749024,
-                            35.2205233
-                        ],
-                        [
-                            -111.5749112,
-                            35.2204857
-                        ],
-                        [
-                            -111.5747258,
-                            35.2204569
-                        ],
-                        [
-                            -111.5747025,
-                            35.2205573
-                        ],
-                        [
-                            -111.5732611,
-                            35.2203341
-                        ],
-                        [
-                            -111.5732298,
-                            35.2204692
-                        ],
-                        [
-                            -111.5728385,
-                            35.2204086
-                        ],
-                        [
-                            -111.5728132,
-                            35.2205178
-                        ],
-                        [
-                            -111.5722626,
-                            35.2204325
-                        ],
-                        [
-                            -111.5725734,
-                            35.2190935
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 227245211,
-                "osm_type": null,
-                "company_name": "Nestle-Purina",
-                "entity_type": "Branch",
-                "address": "Arizona, United States",
-                "country_code": "US",
-                "country": "United States"
             }
         },
         {
@@ -2762,6 +2518,166 @@
                 "company_name": "Nestl\u00e9",
                 "entity_type": "Branch",
                 "address": "Arizona, United States",
+                "country_code": "US",
+                "country": "United States"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -118.5301828,
+                            34.1628782
+                        ],
+                        [
+                            -118.5295278,
+                            34.1625688
+                        ],
+                        [
+                            -118.5292004,
+                            34.1623753
+                        ],
+                        [
+                            -118.5289976,
+                            34.1622156
+                        ],
+                        [
+                            -118.5287422,
+                            34.1619849
+                        ],
+                        [
+                            -118.5285739,
+                            34.1617898
+                        ],
+                        [
+                            -118.5285682,
+                            34.1617717
+                        ],
+                        [
+                            -118.528573,
+                            34.1617561
+                        ],
+                        [
+                            -118.5287044,
+                            34.1616531
+                        ],
+                        [
+                            -118.5289458,
+                            34.1614675
+                        ],
+                        [
+                            -118.5290496,
+                            34.1613954
+                        ],
+                        [
+                            -118.5291525,
+                            34.1613342
+                        ],
+                        [
+                            -118.5293349,
+                            34.1612543
+                        ],
+                        [
+                            -118.529464,
+                            34.1612074
+                        ],
+                        [
+                            -118.5296508,
+                            34.1611624
+                        ],
+                        [
+                            -118.5297727,
+                            34.1611412
+                        ],
+                        [
+                            -118.5299453,
+                            34.1611304
+                        ],
+                        [
+                            -118.5300433,
+                            34.1611297
+                        ],
+                        [
+                            -118.5301506,
+                            34.1611357
+                        ],
+                        [
+                            -118.530275,
+                            34.1611492
+                        ],
+                        [
+                            -118.5303992,
+                            34.1611748
+                        ],
+                        [
+                            -118.5305119,
+                            34.1612003
+                        ],
+                        [
+                            -118.5305818,
+                            34.1612242
+                        ],
+                        [
+                            -118.5306026,
+                            34.1612313
+                        ],
+                        [
+                            -118.5308147,
+                            34.1613181
+                        ],
+                        [
+                            -118.5308635,
+                            34.1613458
+                        ],
+                        [
+                            -118.5308636,
+                            34.1613537
+                        ],
+                        [
+                            -118.5312578,
+                            34.1615701
+                        ],
+                        [
+                            -118.5312664,
+                            34.1615875
+                        ],
+                        [
+                            -118.5312632,
+                            34.1616057
+                        ],
+                        [
+                            -118.5311124,
+                            34.1618286
+                        ],
+                        [
+                            -118.5307478,
+                            34.162246
+                        ],
+                        [
+                            -118.5302365,
+                            34.1628618
+                        ],
+                        [
+                            -118.5302114,
+                            34.1628777
+                        ],
+                        [
+                            -118.5301828,
+                            34.1628782
+                        ]
+                    ]
+                ]
+            },
+            "bbox": null,
+            "properties": {
+                "osm_id": 381163540,
+                "osm_type": null,
+                "company_name": "Nestle Elementary School",
+                "entity_type": "Branch",
+                "address": "California, United States",
                 "country_code": "US",
                 "country": "United States"
             }
@@ -3052,1234 +2968,6 @@
                 "osm_id": 539765444,
                 "osm_type": null,
                 "company_name": "Nestle Waters North America",
-                "entity_type": "Branch",
-                "address": "Florida, United States",
-                "country_code": "US",
-                "country": "United States"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -82.2953093,
-                            28.1947243
-                        ],
-                        [
-                            -82.2959358,
-                            28.1947849
-                        ],
-                        [
-                            -82.2960933,
-                            28.1947725
-                        ],
-                        [
-                            -82.2961782,
-                            28.1947475
-                        ],
-                        [
-                            -82.2962631,
-                            28.1947569
-                        ],
-                        [
-                            -82.2962968,
-                            28.1948037
-                        ],
-                        [
-                            -82.2964206,
-                            28.1948302
-                        ],
-                        [
-                            -82.2968683,
-                            28.1947382
-                        ],
-                        [
-                            -82.2969321,
-                            28.1946867
-                        ],
-                        [
-                            -82.2969674,
-                            28.1945526
-                        ],
-                        [
-                            -82.2970648,
-                            28.194225
-                        ],
-                        [
-                            -82.2970772,
-                            28.1941736
-                        ],
-                        [
-                            -82.29704,
-                            28.1941159
-                        ],
-                        [
-                            -82.2970258,
-                            28.1940379
-                        ],
-                        [
-                            -82.2970789,
-                            28.1939864
-                        ],
-                        [
-                            -82.2972258,
-                            28.1939115
-                        ],
-                        [
-                            -82.2973798,
-                            28.1937493
-                        ],
-                        [
-                            -82.2974576,
-                            28.1935419
-                        ],
-                        [
-                            -82.29747,
-                            28.1933236
-                        ],
-                        [
-                            -82.2973461,
-                            28.1931567
-                        ],
-                        [
-                            -82.2972877,
-                            28.1929726
-                        ],
-                        [
-                            -82.2972931,
-                            28.1928276
-                        ],
-                        [
-                            -82.2973338,
-                            28.192642
-                        ],
-                        [
-                            -82.2973568,
-                            28.1925188
-                        ],
-                        [
-                            -82.2973638,
-                            28.1924876
-                        ],
-                        [
-                            -82.2973461,
-                            28.1924658
-                        ],
-                        [
-                            -82.2972665,
-                            28.1924486
-                        ],
-                        [
-                            -82.2972028,
-                            28.1924127
-                        ],
-                        [
-                            -82.2971002,
-                            28.1923223
-                        ],
-                        [
-                            -82.2968967,
-                            28.1920228
-                        ],
-                        [
-                            -82.2968471,
-                            28.191909
-                        ],
-                        [
-                            -82.2968206,
-                            28.1918216
-                        ],
-                        [
-                            -82.2969126,
-                            28.191636
-                        ],
-                        [
-                            -82.2972099,
-                            28.1913069
-                        ],
-                        [
-                            -82.2973939,
-                            28.1910745
-                        ],
-                        [
-                            -82.2974842,
-                            28.1908078
-                        ],
-                        [
-                            -82.2975143,
-                            28.1905661
-                        ],
-                        [
-                            -82.2972382,
-                            28.1895024
-                        ],
-                        [
-                            -82.2971586,
-                            28.1895928
-                        ],
-                        [
-                            -82.296971,
-                            28.189638
-                        ],
-                        [
-                            -82.2967109,
-                            28.1896552
-                        ],
-                        [
-                            -82.2964681,
-                            28.189649
-                        ],
-                        [
-                            -82.2963482,
-                            28.1896391
-                        ],
-                        [
-                            -82.2962537,
-                            28.1896275
-                        ],
-                        [
-                            -82.2961358,
-                            28.189623
-                        ],
-                        [
-                            -82.2960159,
-                            28.1896033
-                        ],
-                        [
-                            -82.2958888,
-                            28.1896104
-                        ],
-                        [
-                            -82.295838,
-                            28.1896033
-                        ],
-                        [
-                            -82.2957606,
-                            28.1896412
-                        ],
-                        [
-                            -82.2955326,
-                            28.1897163
-                        ],
-                        [
-                            -82.2954279,
-                            28.1897122
-                        ],
-                        [
-                            -82.2954217,
-                            28.1897032
-                        ],
-                        [
-                            -82.2954556,
-                            28.1896867
-                        ],
-                        [
-                            -82.2954369,
-                            28.1896569
-                        ],
-                        [
-                            -82.2953108,
-                            28.1895323
-                        ],
-                        [
-                            -82.2952501,
-                            28.1895035
-                        ],
-                        [
-                            -82.2952314,
-                            28.1895159
-                        ],
-                        [
-                            -82.2952207,
-                            28.1894902
-                        ],
-                        [
-                            -82.2954884,
-                            28.1890742
-                        ],
-                        [
-                            -82.2954831,
-                            28.1890383
-                        ],
-                        [
-                            -82.2952478,
-                            28.1889174
-                        ],
-                        [
-                            -82.2952398,
-                            28.1888909
-                        ],
-                        [
-                            -82.2952531,
-                            28.1888441
-                        ],
-                        [
-                            -82.2952717,
-                            28.1887685
-                        ],
-                        [
-                            -82.2952283,
-                            28.1886889
-                        ],
-                        [
-                            -82.2950903,
-                            28.1885821
-                        ],
-                        [
-                            -82.2950133,
-                            28.1885447
-                        ],
-                        [
-                            -82.2950098,
-                            28.1885252
-                        ],
-                        [
-                            -82.2950283,
-                            28.1884908
-                        ],
-                        [
-                            -82.295154,
-                            28.1882826
-                        ],
-                        [
-                            -82.2951549,
-                            28.1882483
-                        ],
-                        [
-                            -82.2951053,
-                            28.1881898
-                        ],
-                        [
-                            -82.2949912,
-                            28.1881516
-                        ],
-                        [
-                            -82.2947824,
-                            28.1881103
-                        ],
-                        [
-                            -82.2946364,
-                            28.1881112
-                        ],
-                        [
-                            -82.294571,
-                            28.1881122
-                        ],
-                        [
-                            -82.2944846,
-                            28.1881112
-                        ],
-                        [
-                            -82.2942768,
-                            28.1880587
-                        ],
-                        [
-                            -82.2940689,
-                            28.1880083
-                        ],
-                        [
-                            -82.2939288,
-                            28.1879702
-                        ],
-                        [
-                            -82.2939207,
-                            28.1879784
-                        ],
-                        [
-                            -82.2939218,
-                            28.1879938
-                        ],
-                        [
-                            -82.2935251,
-                            28.18781
-                        ],
-                        [
-                            -82.2934507,
-                            28.1877211
-                        ],
-                        [
-                            -82.2934304,
-                            28.187633
-                        ],
-                        [
-                            -82.2934339,
-                            28.1874521
-                        ],
-                        [
-                            -82.2933959,
-                            28.1873749
-                        ],
-                        [
-                            -82.2933738,
-                            28.1873273
-                        ],
-                        [
-                            -82.29321,
-                            28.1868033
-                        ],
-                        [
-                            -82.2931464,
-                            28.1864012
-                        ],
-                        [
-                            -82.2931054,
-                            28.1862856
-                        ],
-                        [
-                            -82.2921412,
-                            28.1867135
-                        ],
-                        [
-                            -82.2921774,
-                            28.1867407
-                        ],
-                        [
-                            -82.2921868,
-                            28.1867797
-                        ],
-                        [
-                            -82.2921854,
-                            28.1868081
-                        ],
-                        [
-                            -82.2922377,
-                            28.1868352
-                        ],
-                        [
-                            -82.2924121,
-                            28.1868932
-                        ],
-                        [
-                            -82.2925743,
-                            28.186996
-                        ],
-                        [
-                            -82.2926696,
-                            28.1871071
-                        ],
-                        [
-                            -82.2927098,
-                            28.18723
-                        ],
-                        [
-                            -82.2927393,
-                            28.1874239
-                        ],
-                        [
-                            -82.2927058,
-                            28.1875303
-                        ],
-                        [
-                            -82.292514,
-                            28.1876639
-                        ],
-                        [
-                            -82.2923705,
-                            28.187736
-                        ],
-                        [
-                            -82.2923316,
-                            28.1877427
-                        ],
-                        [
-                            -82.2923024,
-                            28.18777
-                        ],
-                        [
-                            -82.2921493,
-                            28.1878706
-                        ],
-                        [
-                            -82.2920025,
-                            28.18794
-                        ],
-                        [
-                            -82.2918432,
-                            28.187979
-                        ],
-                        [
-                            -82.2916999,
-                            28.1880599
-                        ],
-                        [
-                            -82.2916289,
-                            28.1880882
-                        ],
-                        [
-                            -82.2915,
-                            28.1880936
-                        ],
-                        [
-                            -82.2915434,
-                            28.1881131
-                        ],
-                        [
-                            -82.2915655,
-                            28.1881279
-                        ],
-                        [
-                            -82.2915682,
-                            28.1881474
-                        ],
-                        [
-                            -82.2915593,
-                            28.188181
-                        ],
-                        [
-                            -82.2915328,
-                            28.1882441
-                        ],
-                        [
-                            -82.2914584,
-                            28.1884313
-                        ],
-                        [
-                            -82.2914469,
-                            28.1885491
-                        ],
-                        [
-                            -82.2914779,
-                            28.188631
-                        ],
-                        [
-                            -82.291554,
-                            28.1887043
-                        ],
-                        [
-                            -82.2915867,
-                            28.1887308
-                        ],
-                        [
-                            -82.2915867,
-                            28.1887433
-                        ],
-                        [
-                            -82.2915717,
-                            28.1887464
-                        ],
-                        [
-                            -82.2915478,
-                            28.1887417
-                        ],
-                        [
-                            -82.2911859,
-                            28.1886349
-                        ],
-                        [
-                            -82.2911355,
-                            28.1885998
-                        ],
-                        [
-                            -82.2911045,
-                            28.1885647
-                        ],
-                        [
-                            -82.2911005,
-                            28.1885965
-                        ],
-                        [
-                            -82.29113,
-                            28.1886391
-                        ],
-                        [
-                            -82.2912668,
-                            28.1887017
-                        ],
-                        [
-                            -82.2916946,
-                            28.1888294
-                        ],
-                        [
-                            -82.2918729,
-                            28.1889216
-                        ],
-                        [
-                            -82.2921184,
-                            28.1889476
-                        ],
-                        [
-                            -82.2922578,
-                            28.1889062
-                        ],
-                        [
-                            -82.2924349,
-                            28.1887998
-                        ],
-                        [
-                            -82.2924751,
-                            28.1887868
-                        ],
-                        [
-                            -82.292577,
-                            28.188814
-                        ],
-                        [
-                            -82.2946517,
-                            28.189814
-                        ],
-                        [
-                            -82.2946973,
-                            28.1898696
-                        ],
-                        [
-                            -82.2947402,
-                            28.1899464
-                        ],
-                        [
-                            -82.2947389,
-                            28.1900457
-                        ],
-                        [
-                            -82.294468,
-                            28.1907915
-                        ],
-                        [
-                            -82.2944438,
-                            28.1909866
-                        ],
-                        [
-                            -82.2945136,
-                            28.1911946
-                        ],
-                        [
-                            -82.2946115,
-                            28.1913542
-                        ],
-                        [
-                            -82.2948421,
-                            28.1914641
-                        ],
-                        [
-                            -82.2949964,
-                            28.1914996
-                        ],
-                        [
-                            -82.2952002,
-                            28.1914759
-                        ],
-                        [
-                            -82.2954121,
-                            28.1913743
-                        ],
-                        [
-                            -82.2955221,
-                            28.1912797
-                        ],
-                        [
-                            -82.2955569,
-                            28.1911686
-                        ],
-                        [
-                            -82.2955127,
-                            28.1904606
-                        ],
-                        [
-                            -82.2954953,
-                            28.1904133
-                        ],
-                        [
-                            -82.2954537,
-                            28.1903991
-                        ],
-                        [
-                            -82.2953035,
-                            28.1903648
-                        ],
-                        [
-                            -82.2952606,
-                            28.1903388
-                        ],
-                        [
-                            -82.2952539,
-                            28.1902833
-                        ],
-                        [
-                            -82.2953142,
-                            28.1899771
-                        ],
-                        [
-                            -82.2953343,
-                            28.1899428
-                        ],
-                        [
-                            -82.2955207,
-                            28.1899027
-                        ],
-                        [
-                            -82.2955717,
-                            28.1899015
-                        ],
-                        [
-                            -82.2955878,
-                            28.1899275
-                        ],
-                        [
-                            -82.2955824,
-                            28.1900031
-                        ],
-                        [
-                            -82.2955918,
-                            28.1900421
-                        ],
-                        [
-                            -82.2956347,
-                            28.1900705
-                        ],
-                        [
-                            -82.2957943,
-                            28.1900729
-                        ],
-                        [
-                            -82.2959284,
-                            28.190054
-                        ],
-                        [
-                            -82.2960062,
-                            28.1900114
-                        ],
-                        [
-                            -82.2961028,
-                            28.1898967
-                        ],
-                        [
-                            -82.296143,
-                            28.1898755
-                        ],
-                        [
-                            -82.2962208,
-                            28.1898625
-                        ],
-                        [
-                            -82.2963428,
-                            28.1898932
-                        ],
-                        [
-                            -82.2964917,
-                            28.1899417
-                        ],
-                        [
-                            -82.2966607,
-                            28.1899298
-                        ],
-                        [
-                            -82.2967116,
-                            28.1899452
-                        ],
-                        [
-                            -82.2967613,
-                            28.1900386
-                        ],
-                        [
-                            -82.296827,
-                            28.1902856
-                        ],
-                        [
-                            -82.2968176,
-                            28.1903211
-                        ],
-                        [
-                            -82.2967894,
-                            28.1903447
-                        ],
-                        [
-                            -82.2966432,
-                            28.1903778
-                        ],
-                        [
-                            -82.2963817,
-                            28.1905055
-                        ],
-                        [
-                            -82.2961336,
-                            28.1907277
-                        ],
-                        [
-                            -82.2960237,
-                            28.1909168
-                        ],
-                        [
-                            -82.2960089,
-                            28.1911473
-                        ],
-                        [
-                            -82.2960129,
-                            28.1913246
-                        ],
-                        [
-                            -82.296076,
-                            28.191431
-                        ],
-                        [
-                            -82.2962409,
-                            28.1915031
-                        ],
-                        [
-                            -82.2962583,
-                            28.1915291
-                        ],
-                        [
-                            -82.2962704,
-                            28.191574
-                        ],
-                        [
-                            -82.296249,
-                            28.1916308
-                        ],
-                        [
-                            -82.2961953,
-                            28.1919345
-                        ],
-                        [
-                            -82.2961752,
-                            28.1921946
-                        ],
-                        [
-                            -82.2961537,
-                            28.1922277
-                        ],
-                        [
-                            -82.2960894,
-                            28.1922407
-                        ],
-                        [
-                            -82.2947764,
-                            28.192152
-                        ],
-                        [
-                            -82.2946168,
-                            28.1921189
-                        ],
-                        [
-                            -82.2927634,
-                            28.1916532
-                        ],
-                        [
-                            -82.2926856,
-                            28.1916
-                        ],
-                        [
-                            -82.2925059,
-                            28.1914086
-                        ],
-                        [
-                            -82.2924214,
-                            28.1912017
-                        ],
-                        [
-                            -82.2922471,
-                            28.1907537
-                        ],
-                        [
-                            -82.2922069,
-                            28.1907029
-                        ],
-                        [
-                            -82.2921344,
-                            28.1906804
-                        ],
-                        [
-                            -82.2920714,
-                            28.190684
-                        ],
-                        [
-                            -82.2920365,
-                            28.1907183
-                        ],
-                        [
-                            -82.2919708,
-                            28.1910008
-                        ],
-                        [
-                            -82.2919373,
-                            28.1910693
-                        ],
-                        [
-                            -82.2918515,
-                            28.1910977
-                        ],
-                        [
-                            -82.291704,
-                            28.191132
-                        ],
-                        [
-                            -82.2915497,
-                            28.1912443
-                        ],
-                        [
-                            -82.2914491,
-                            28.19134
-                        ],
-                        [
-                            -82.2914035,
-                            28.191366
-                        ],
-                        [
-                            -82.2912453,
-                            28.1913755
-                        ],
-                        [
-                            -82.291083,
-                            28.191405
-                        ],
-                        [
-                            -82.2909221,
-                            28.1914629
-                        ],
-                        [
-                            -82.2907746,
-                            28.1916178
-                        ],
-                        [
-                            -82.2907089,
-                            28.1917372
-                        ],
-                        [
-                            -82.290792,
-                            28.1920717
-                        ],
-                        [
-                            -82.2908296,
-                            28.1921213
-                        ],
-                        [
-                            -82.2909342,
-                            28.1921532
-                        ],
-                        [
-                            -82.2910602,
-                            28.1921284
-                        ],
-                        [
-                            -82.2911112,
-                            28.192087
-                        ],
-                        [
-                            -82.2911541,
-                            28.1920539
-                        ],
-                        [
-                            -82.2912077,
-                            28.1920421
-                        ],
-                        [
-                            -82.2912869,
-                            28.1920977
-                        ],
-                        [
-                            -82.291307,
-                            28.1921828
-                        ],
-                        [
-                            -82.2913714,
-                            28.1923861
-                        ],
-                        [
-                            -82.2914237,
-                            28.1924842
-                        ],
-                        [
-                            -82.2915014,
-                            28.1925208
-                        ],
-                        [
-                            -82.291598,
-                            28.1925504
-                        ],
-                        [
-                            -82.2916356,
-                            28.1926059
-                        ],
-                        [
-                            -82.2916664,
-                            28.1926804
-                        ],
-                        [
-                            -82.2917563,
-                            28.192743
-                        ],
-                        [
-                            -82.2918059,
-                            28.1928069
-                        ],
-                        [
-                            -82.2918139,
-                            28.1928719
-                        ],
-                        [
-                            -82.2918501,
-                            28.1929357
-                        ],
-                        [
-                            -82.2919065,
-                            28.1930114
-                        ],
-                        [
-                            -82.2920044,
-                            28.1931591
-                        ],
-                        [
-                            -82.2920419,
-                            28.1932856
-                        ],
-                        [
-                            -82.2921707,
-                            28.1934227
-                        ],
-                        [
-                            -82.2921666,
-                            28.1934924
-                        ],
-                        [
-                            -82.2921894,
-                            28.1935338
-                        ],
-                        [
-                            -82.2922525,
-                            28.1935302
-                        ],
-                        [
-                            -82.29229,
-                            28.1935125
-                        ],
-                        [
-                            -82.2922914,
-                            28.1934333
-                        ],
-                        [
-                            -82.2923222,
-                            28.1934002
-                        ],
-                        [
-                            -82.2924027,
-                            28.1934061
-                        ],
-                        [
-                            -82.2925435,
-                            28.1934132
-                        ],
-                        [
-                            -82.292636,
-                            28.193392
-                        ],
-                        [
-                            -82.2927795,
-                            28.1933045
-                        ],
-                        [
-                            -82.2929498,
-                            28.1932206
-                        ],
-                        [
-                            -82.2930021,
-                            28.1932017
-                        ],
-                        [
-                            -82.2930491,
-                            28.1932028
-                        ],
-                        [
-                            -82.2931443,
-                            28.1932903
-                        ],
-                        [
-                            -82.2931765,
-                            28.1933612
-                        ],
-                        [
-                            -82.2931376,
-                            28.1935243
-                        ],
-                        [
-                            -82.2931363,
-                            28.1936378
-                        ],
-                        [
-                            -82.2931644,
-                            28.1938896
-                        ],
-                        [
-                            -82.2931242,
-                            28.1941106
-                        ],
-                        [
-                            -82.2931135,
-                            28.1941484
-                        ],
-                        [
-                            -82.2931282,
-                            28.1941815
-                        ],
-                        [
-                            -82.2931644,
-                            28.1941969
-                        ],
-                        [
-                            -82.2932047,
-                            28.1942004
-                        ],
-                        [
-                            -82.2932677,
-                            28.1941827
-                        ],
-                        [
-                            -82.2933441,
-                            28.1941331
-                        ],
-                        [
-                            -82.2933964,
-                            28.1940645
-                        ],
-                        [
-                            -82.2934367,
-                            28.1940385
-                        ],
-                        [
-                            -82.2934715,
-                            28.1940231
-                        ],
-                        [
-                            -82.2934916,
-                            28.1939924
-                        ],
-                        [
-                            -82.2934715,
-                            28.1939522
-                        ],
-                        [
-                            -82.2934474,
-                            28.1938175
-                        ],
-                        [
-                            -82.2934957,
-                            28.1937442
-                        ],
-                        [
-                            -82.2936633,
-                            28.1937087
-                        ],
-                        [
-                            -82.2937398,
-                            28.1936756
-                        ],
-                        [
-                            -82.293835,
-                            28.1936272
-                        ],
-                        [
-                            -82.2938578,
-                            28.1935787
-                        ],
-                        [
-                            -82.2939221,
-                            28.1933057
-                        ],
-                        [
-                            -82.2939329,
-                            28.1932761
-                        ],
-                        [
-                            -82.2939704,
-                            28.1932702
-                        ],
-                        [
-                            -82.2940375,
-                            28.1932797
-                        ],
-                        [
-                            -82.2943687,
-                            28.1933671
-                        ],
-                        [
-                            -82.2946973,
-                            28.1934286
-                        ],
-                        [
-                            -82.2947308,
-                            28.1934369
-                        ],
-                        [
-                            -82.2947429,
-                            28.1934617
-                        ],
-                        [
-                            -82.2947241,
-                            28.1936354
-                        ],
-                        [
-                            -82.2948126,
-                            28.1937406
-                        ],
-                        [
-                            -82.2948475,
-                            28.1938281
-                        ],
-                        [
-                            -82.2948381,
-                            28.1939369
-                        ],
-                        [
-                            -82.2947885,
-                            28.1942631
-                        ],
-                        [
-                            -82.2947593,
-                            28.1942858
-                        ],
-                        [
-                            -82.2947932,
-                            28.1942966
-                        ],
-                        [
-                            -82.2948086,
-                            28.1943089
-                        ],
-                        [
-                            -82.2948194,
-                            28.1943333
-                        ],
-                        [
-                            -82.2948163,
-                            28.1944039
-                        ],
-                        [
-                            -82.2948348,
-                            28.1944541
-                        ],
-                        [
-                            -82.2949211,
-                            28.1945478
-                        ],
-                        [
-                            -82.2950274,
-                            28.1946211
-                        ],
-                        [
-                            -82.2951429,
-                            28.1946904
-                        ],
-                        [
-                            -82.2952215,
-                            28.1947216
-                        ],
-                        [
-                            -82.2952816,
-                            28.194723
-                        ],
-                        [
-                            -82.2953093,
-                            28.1947243
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 1040822660,
-                "osm_type": null,
-                "company_name": "Sheringham / Nestlewood",
                 "entity_type": "Branch",
                 "address": "Florida, United States",
                 "country_code": "US",
@@ -4897,55 +3585,39 @@
                 "coordinates": [
                     [
                         [
-                            -116.3440812,
-                            43.6829342
+                            -86.1484694,
+                            39.7764705
                         ],
                         [
-                            -116.3418401,
-                            43.682913
+                            -86.1484765,
+                            39.7763561
                         ],
                         [
-                            -116.3413319,
-                            43.6827078
+                            -86.1482396,
+                            39.7763516
                         ],
                         [
-                            -116.3404777,
-                            43.6820549
+                            -86.1481985,
+                            39.7763473
                         ],
                         [
-                            -116.3416639,
-                            43.6813755
+                            -86.1481915,
+                            39.7764604
                         ],
                         [
-                            -116.3426054,
-                            43.6811097
-                        ],
-                        [
-                            -116.3434235,
-                            43.6806907
-                        ],
-                        [
-                            -116.3439263,
-                            43.6805703
-                        ],
-                        [
-                            -116.3441221,
-                            43.6806782
-                        ],
-                        [
-                            -116.3440812,
-                            43.6829342
+                            -86.1484694,
+                            39.7764705
                         ]
                     ]
                 ]
             },
             "bbox": null,
             "properties": {
-                "osm_id": 1247782123,
+                "osm_id": 202633811,
                 "osm_type": null,
-                "company_name": "Nestled Island",
+                "company_name": "Nestle Inn",
                 "entity_type": "Branch",
-                "address": "Idaho, United States",
+                "address": "Indiana, United States",
                 "country_code": "US",
                 "country": "United States"
             }
@@ -4957,83 +3629,79 @@
                 "coordinates": [
                     [
                         [
-                            -90.2688485,
-                            39.7519633
+                            -83.9091954,
+                            38.0987017
                         ],
                         [
-                            -90.2689298,
-                            39.7481437
+                            -83.9051673,
+                            38.0985141
                         ],
                         [
-                            -90.2689461,
-                            39.7468872
+                            -83.9033474,
+                            38.0983008
                         ],
                         [
-                            -90.2663767,
-                            39.7468246
+                            -83.9035488,
+                            38.0981669
                         ],
                         [
-                            -90.2664499,
-                            39.7468309
+                            -83.9036472,
+                            38.098074
                         ],
                         [
-                            -90.2664499,
-                            39.7477811
+                            -83.903903,
+                            38.0978056
                         ],
                         [
-                            -90.2664011,
-                            39.7495378
+                            -83.9040407,
+                            38.0976197
                         ],
                         [
-                            -90.2663767,
-                            39.7504693
+                            -83.9041391,
+                            38.0973565
                         ],
                         [
-                            -90.2663686,
-                            39.7506693
+                            -83.9042047,
+                            38.0970004
                         ],
                         [
-                            -90.2664255,
-                            39.7509444
+                            -83.9043228,
+                            38.0939033
                         ],
                         [
-                            -90.2665963,
-                            39.7512569
+                            -83.90652,
+                            38.0940169
                         ],
                         [
-                            -90.2668158,
-                            39.751507
+                            -83.9064413,
+                            38.0949047
                         ],
                         [
-                            -90.2671654,
-                            39.7517696
+                            -83.9084483,
+                            38.095008
                         ],
                         [
-                            -90.267515,
-                            39.7518821
+                            -83.9084417,
+                            38.0954209
                         ],
                         [
-                            -90.2679135,
-                            39.7519571
+                            -83.9105406,
+                            38.0955035
                         ],
                         [
-                            -90.2684338,
-                            39.7519633
-                        ],
-                        [
-                            -90.2688485,
-                            39.7519633
+                            -83.9091954,
+                            38.0987017
                         ]
                     ]
                 ]
             },
             "bbox": null,
             "properties": {
-                "osm_id": 473296103,
+                "osm_id": 1286539107,
                 "osm_type": null,
                 "company_name": "Nestle USA",
                 "entity_type": "Branch",
-                "address": "Illinois, United States",
+                "address": "Kentucky, United States",
                 "country_code": "US",
                 "country": "United States"
             }
@@ -5045,1069 +3713,99 @@
                 "coordinates": [
                     [
                         [
-                            -88.7471942,
-                            41.9059971
+                            -95.07573,
+                            45.1048707
                         ],
                         [
-                            -88.7471781,
-                            41.9046965
+                            -95.0757379,
+                            45.1059357
                         ],
                         [
-                            -88.7472948,
-                            41.9046925
+                            -95.075854,
+                            45.1059353
                         ],
                         [
-                            -88.7472948,
-                            41.9045528
+                            -95.0758552,
+                            45.1061069
                         ],
                         [
-                            -88.7473659,
-                            41.9045069
+                            -95.0757115,
+                            45.1061074
                         ],
                         [
-                            -88.7476918,
-                            41.9045039
+                            -95.075712,
+                            45.1061771
                         ],
                         [
-                            -88.7476931,
-                            41.9042594
+                            -95.0756492,
+                            45.1061773
                         ],
                         [
-                            -88.7477682,
-                            41.9041945
+                            -95.0756496,
+                            45.1062318
                         ],
                         [
-                            -88.7477521,
-                            41.9041546
+                            -95.075446,
+                            45.1062325
                         ],
                         [
-                            -88.7476368,
-                            41.9041615
+                            -95.0754451,
+                            45.1061084
                         ],
                         [
-                            -88.7475898,
-                            41.9041915
+                            -95.0753387,
+                            45.1061088
                         ],
                         [
-                            -88.7472572,
-                            41.9041935
+                            -95.0753392,
+                            45.1061744
                         ],
                         [
-                            -88.7472559,
-                            41.9044161
+                            -95.0751703,
+                            45.106175
                         ],
                         [
-                            -88.7471513,
-                            41.904497
+                            -95.0751687,
+                            45.105964
                         ],
                         [
-                            -88.7469783,
-                            41.904498
+                            -95.0754509,
+                            45.105963
                         ],
                         [
-                            -88.7469706,
-                            41.9046002
+                            -95.0754485,
+                            45.1056376
                         ],
                         [
-                            -88.7441378,
-                            41.904603
+                            -95.0751593,
+                            45.1056386
                         ],
                         [
-                            -88.7441301,
-                            41.9044512
+                            -95.0751579,
+                            45.1054453
                         ],
                         [
-                            -88.7437145,
-                            41.9044471
+                            -95.0754465,
+                            45.1054443
                         ],
                         [
-                            -88.7437146,
-                            41.9046068
+                            -95.0754423,
+                            45.1048717
                         ],
                         [
-                            -88.7411954,
-                            41.904608
-                        ],
-                        [
-                            -88.7411938,
-                            41.904536
-                        ],
-                        [
-                            -88.741099,
-                            41.9045359
-                        ],
-                        [
-                            -88.7411156,
-                            41.9059882
-                        ],
-                        [
-                            -88.7471942,
-                            41.9059971
+                            -95.07573,
+                            45.1048707
                         ]
                     ]
                 ]
             },
             "bbox": null,
             "properties": {
-                "osm_id": 552688520,
+                "osm_id": 487183241,
                 "osm_type": null,
-                "company_name": "Nestle Distribution Center",
+                "company_name": "Purina",
                 "entity_type": "Branch",
-                "address": "Illinois, United States",
-                "country_code": "US",
-                "country": "United States"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "MultiPolygon",
-                "coordinates": [
-                    [
-                        [
-                            [
-                                -89.4639173,
-                                40.6147657
-                            ],
-                            [
-                                -89.4639175,
-                                40.6147121
-                            ],
-                            [
-                                -89.4638207,
-                                40.614712
-                            ],
-                            [
-                                -89.4638215,
-                                40.6144242
-                            ],
-                            [
-                                -89.4638458,
-                                40.6144242
-                            ],
-                            [
-                                -89.4638459,
-                                40.6144064
-                            ],
-                            [
-                                -89.4642005,
-                                40.614407
-                            ],
-                            [
-                                -89.4641995,
-                                40.6147662
-                            ],
-                            [
-                                -89.4639173,
-                                40.6147657
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4630716,
-                                40.6139324
-                            ],
-                            [
-                                -89.4631155,
-                                40.6139322
-                            ],
-                            [
-                                -89.4631214,
-                                40.6142822
-                            ],
-                            [
-                                -89.462943,
-                                40.6142829
-                            ],
-                            [
-                                -89.4628461,
-                                40.6142832
-                            ],
-                            [
-                                -89.4627856,
-                                40.6142854
-                            ],
-                            [
-                                -89.4625966,
-                                40.6142841
-                            ],
-                            [
-                                -89.4625965,
-                                40.6142724
-                            ],
-                            [
-                                -89.4625931,
-                                40.6139562
-                            ],
-                            [
-                                -89.4625929,
-                                40.6139354
-                            ],
-                            [
-                                -89.4630716,
-                                40.6139324
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4633446,
-                                40.6142794
-                            ],
-                            [
-                                -89.4633458,
-                                40.6143343
-                            ],
-                            [
-                                -89.4631226,
-                                40.6143371
-                            ],
-                            [
-                                -89.4631214,
-                                40.6142822
-                            ],
-                            [
-                                -89.4633446,
-                                40.6142794
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4633644,
-                                40.6142793
-                            ],
-                            [
-                                -89.4633614,
-                                40.6142192
-                            ],
-                            [
-                                -89.4634488,
-                                40.6142167
-                            ],
-                            [
-                                -89.4634507,
-                                40.6142768
-                            ],
-                            [
-                                -89.4633644,
-                                40.6142793
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4634488,
-                                40.6142167
-                            ],
-                            [
-                                -89.4634507,
-                                40.6142768
-                            ],
-                            [
-                                -89.4634572,
-                                40.6143588
-                            ],
-                            [
-                                -89.4634562,
-                                40.6144746
-                            ],
-                            [
-                                -89.4634586,
-                                40.614557
-                            ],
-                            [
-                                -89.4636333,
-                                40.6145557
-                            ],
-                            [
-                                -89.4636311,
-                                40.6144285
-                            ],
-                            [
-                                -89.4636251,
-                                40.6142145
-                            ],
-                            [
-                                -89.4634488,
-                                40.6142167
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4634562,
-                                40.6144746
-                            ],
-                            [
-                                -89.4634572,
-                                40.6143588
-                            ],
-                            [
-                                -89.4632245,
-                                40.6143577
-                            ],
-                            [
-                                -89.4632235,
-                                40.6144734
-                            ],
-                            [
-                                -89.4634562,
-                                40.6144746
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4636311,
-                                40.6144285
-                            ],
-                            [
-                                -89.4638215,
-                                40.6144242
-                            ],
-                            [
-                                -89.4638458,
-                                40.6144242
-                            ],
-                            [
-                                -89.4638459,
-                                40.6144064
-                            ],
-                            [
-                                -89.4638485,
-                                40.614379
-                            ],
-                            [
-                                -89.4642831,
-                                40.6143719
-                            ],
-                            [
-                                -89.4642787,
-                                40.6141858
-                            ],
-                            [
-                                -89.4641036,
-                                40.6141881
-                            ],
-                            [
-                                -89.4639037,
-                                40.6141895
-                            ],
-                            [
-                                -89.463904,
-                                40.6142132
-                            ],
-                            [
-                                -89.4637349,
-                                40.6142144
-                            ],
-                            [
-                                -89.4637346,
-                                40.6141907
-                            ],
-                            [
-                                -89.463715,
-                                40.6141909
-                            ],
-                            [
-                                -89.4636823,
-                                40.6141914
-                            ],
-                            [
-                                -89.4636829,
-                                40.6142136
-                            ],
-                            [
-                                -89.4636251,
-                                40.6142145
-                            ],
-                            [
-                                -89.4636311,
-                                40.6144285
-                            ]
-                        ],
-                        [
-                            [
-                                -89.463736,
-                                40.6140512
-                            ],
-                            [
-                                -89.4637328,
-                                40.6139494
-                            ],
-                            [
-                                -89.4635058,
-                                40.613953
-                            ],
-                            [
-                                -89.4635054,
-                                40.6140523
-                            ],
-                            [
-                                -89.4637148,
-                                40.6140516
-                            ],
-                            [
-                                -89.463736,
-                                40.6140512
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4641966,
-                                40.6132
-                            ],
-                            [
-                                -89.4629193,
-                                40.6137178
-                            ],
-                            [
-                                -89.4629395,
-                                40.6137504
-                            ],
-                            [
-                                -89.4630398,
-                                40.6138919
-                            ],
-                            [
-                                -89.4630716,
-                                40.6139324
-                            ],
-                            [
-                                -89.4631155,
-                                40.6139322
-                            ],
-                            [
-                                -89.4633606,
-                                40.6139307
-                            ],
-                            [
-                                -89.4633606,
-                                40.6139211
-                            ],
-                            [
-                                -89.4642697,
-                                40.6139174
-                            ],
-                            [
-                                -89.4642598,
-                                40.6133021
-                            ],
-                            [
-                                -89.4641966,
-                                40.6132
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4638449,
-                                40.614068
-                            ],
-                            [
-                                -89.4638412,
-                                40.6139475
-                            ],
-                            [
-                                -89.4637328,
-                                40.6139494
-                            ],
-                            [
-                                -89.463736,
-                                40.6140512
-                            ],
-                            [
-                                -89.4637148,
-                                40.6140516
-                            ],
-                            [
-                                -89.4637153,
-                                40.6140686
-                            ],
-                            [
-                                -89.4638449,
-                                40.614068
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4637153,
-                                40.6140686
-                            ],
-                            [
-                                -89.4638449,
-                                40.614068
-                            ],
-                            [
-                                -89.4639056,
-                                40.6140681
-                            ],
-                            [
-                                -89.4639037,
-                                40.6141895
-                            ],
-                            [
-                                -89.463904,
-                                40.6142132
-                            ],
-                            [
-                                -89.4637349,
-                                40.6142144
-                            ],
-                            [
-                                -89.4637346,
-                                40.6141907
-                            ],
-                            [
-                                -89.463715,
-                                40.6141909
-                            ],
-                            [
-                                -89.4637153,
-                                40.6140686
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4639037,
-                                40.6141895
-                            ],
-                            [
-                                -89.4639056,
-                                40.6140681
-                            ],
-                            [
-                                -89.4639053,
-                                40.613953
-                            ],
-                            [
-                                -89.4641031,
-                                40.6139528
-                            ],
-                            [
-                                -89.4641036,
-                                40.6141881
-                            ],
-                            [
-                                -89.4639037,
-                                40.6141895
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4633446,
-                                40.6148032
-                            ],
-                            [
-                                -89.4633445,
-                                40.6145571
-                            ],
-                            [
-                                -89.4634586,
-                                40.614557
-                            ],
-                            [
-                                -89.4636333,
-                                40.6145557
-                            ],
-                            [
-                                -89.4636311,
-                                40.6144285
-                            ],
-                            [
-                                -89.4638215,
-                                40.6144242
-                            ],
-                            [
-                                -89.4638207,
-                                40.614712
-                            ],
-                            [
-                                -89.4639175,
-                                40.6147121
-                            ],
-                            [
-                                -89.4639173,
-                                40.6147657
-                            ],
-                            [
-                                -89.4639178,
-                                40.6147986
-                            ],
-                            [
-                                -89.4633446,
-                                40.6148032
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4631214,
-                                40.6142822
-                            ],
-                            [
-                                -89.4631155,
-                                40.6139322
-                            ],
-                            [
-                                -89.4633606,
-                                40.6139307
-                            ],
-                            [
-                                -89.4633614,
-                                40.6142192
-                            ],
-                            [
-                                -89.4633644,
-                                40.6142793
-                            ],
-                            [
-                                -89.4633446,
-                                40.6142794
-                            ],
-                            [
-                                -89.4631214,
-                                40.6142822
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4628481,
-                                40.614316
-                            ],
-                            [
-                                -89.4628461,
-                                40.6142832
-                            ],
-                            [
-                                -89.4627856,
-                                40.6142854
-                            ],
-                            [
-                                -89.4627876,
-                                40.6143181
-                            ],
-                            [
-                                -89.4628481,
-                                40.614316
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4650566,
-                                40.61351
-                            ],
-                            [
-                                -89.464869,
-                                40.6132705
-                            ],
-                            [
-                                -89.4646792,
-                                40.6133562
-                            ],
-                            [
-                                -89.4647956,
-                                40.6134949
-                            ],
-                            [
-                                -89.4648667,
-                                40.6135957
-                            ],
-                            [
-                                -89.4650566,
-                                40.61351
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4648667,
-                                40.6135957
-                            ],
-                            [
-                                -89.4647956,
-                                40.6134949
-                            ],
-                            [
-                                -89.4645018,
-                                40.6136143
-                            ],
-                            [
-                                -89.464573,
-                                40.6137151
-                            ],
-                            [
-                                -89.4648667,
-                                40.6135957
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4649024,
-                                40.6137862
-                            ],
-                            [
-                                -89.4651876,
-                                40.6136645
-                            ],
-                            [
-                                -89.465079,
-                                40.6135179
-                            ],
-                            [
-                                -89.4647938,
-                                40.6136395
-                            ],
-                            [
-                                -89.4648354,
-                                40.6136926
-                            ],
-                            [
-                                -89.4648948,
-                                40.613776
-                            ],
-                            [
-                                -89.4649024,
-                                40.6137862
-                            ]
-                        ],
-                        [
-                            [
-                                -89.4648948,
-                                40.613776
-                            ],
-                            [
-                                -89.4648354,
-                                40.6136926
-                            ],
-                            [
-                                -89.4646347,
-                                40.613775
-                            ],
-                            [
-                                -89.4646941,
-                                40.6138584
-                            ],
-                            [
-                                -89.4648948,
-                                40.613776
-                            ]
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 3213449,
-                "osm_type": null,
-                "company_name": "Nestle Libby's Pumpkin Cannery",
-                "entity_type": "Branch",
-                "address": "Illinois, United States",
-                "country_code": "US",
-                "country": "United States"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -76.8281242,
-                            39.1136634
-                        ],
-                        [
-                            -76.8280962,
-                            39.113627
-                        ],
-                        [
-                            -76.8280534,
-                            39.1135938
-                        ],
-                        [
-                            -76.8279943,
-                            39.1135646
-                        ],
-                        [
-                            -76.8279226,
-                            39.1135538
-                        ],
-                        [
-                            -76.8278434,
-                            39.1135538
-                        ],
-                        [
-                            -76.8277667,
-                            39.1135665
-                        ],
-                        [
-                            -76.8276937,
-                            39.1135977
-                        ],
-                        [
-                            -76.8276408,
-                            39.1136452
-                        ],
-                        [
-                            -76.8275772,
-                            39.1137136
-                        ],
-                        [
-                            -76.8276267,
-                            39.1137414
-                        ],
-                        [
-                            -76.8274753,
-                            39.1139041
-                        ],
-                        [
-                            -76.8273276,
-                            39.1138214
-                        ],
-                        [
-                            -76.8272446,
-                            39.1139106
-                        ],
-                        [
-                            -76.8273901,
-                            39.1139921
-                        ],
-                        [
-                            -76.8273202,
-                            39.1140672
-                        ],
-                        [
-                            -76.8271913,
-                            39.113995
-                        ],
-                        [
-                            -76.8270279,
-                            39.1141706
-                        ],
-                        [
-                            -76.8268625,
-                            39.1140779
-                        ],
-                        [
-                            -76.8267117,
-                            39.11424
-                        ],
-                        [
-                            -76.8268665,
-                            39.1143267
-                        ],
-                        [
-                            -76.8267929,
-                            39.1144058
-                        ],
-                        [
-                            -76.8270437,
-                            39.1145463
-                        ],
-                        [
-                            -76.8264271,
-                            39.115209
-                        ],
-                        [
-                            -76.8270407,
-                            39.1155527
-                        ],
-                        [
-                            -76.8262859,
-                            39.1163639
-                        ],
-                        [
-                            -76.8274659,
-                            39.1170248
-                        ],
-                        [
-                            -76.8273159,
-                            39.117186
-                        ],
-                        [
-                            -76.8274851,
-                            39.1172808
-                        ],
-                        [
-                            -76.8275341,
-                            39.1172283
-                        ],
-                        [
-                            -76.8276344,
-                            39.1172845
-                        ],
-                        [
-                            -76.8281208,
-                            39.1167618
-                        ],
-                        [
-                            -76.8281821,
-                            39.1167961
-                        ],
-                        [
-                            -76.8286325,
-                            39.1163121
-                        ],
-                        [
-                            -76.828367,
-                            39.1161634
-                        ],
-                        [
-                            -76.8284039,
-                            39.1161238
-                        ],
-                        [
-                            -76.82822,
-                            39.1160209
-                        ],
-                        [
-                            -76.8287779,
-                            39.1154213
-                        ],
-                        [
-                            -76.8288337,
-                            39.1154525
-                        ],
-                        [
-                            -76.8290162,
-                            39.1152563
-                        ],
-                        [
-                            -76.8289782,
-                            39.115235
-                        ],
-                        [
-                            -76.8290369,
-                            39.1151719
-                        ],
-                        [
-                            -76.8290809,
-                            39.1151966
-                        ],
-                        [
-                            -76.8291107,
-                            39.1151646
-                        ],
-                        [
-                            -76.8290533,
-                            39.1151324
-                        ],
-                        [
-                            -76.8290791,
-                            39.1151047
-                        ],
-                        [
-                            -76.8289937,
-                            39.1150569
-                        ],
-                        [
-                            -76.8289838,
-                            39.1150675
-                        ],
-                        [
-                            -76.828877,
-                            39.1150077
-                        ],
-                        [
-                            -76.8289431,
-                            39.1149367
-                        ],
-                        [
-                            -76.8288814,
-                            39.1149022
-                        ],
-                        [
-                            -76.8289339,
-                            39.1148457
-                        ],
-                        [
-                            -76.828386,
-                            39.1145388
-                        ],
-                        [
-                            -76.8284655,
-                            39.1144534
-                        ],
-                        [
-                            -76.8282968,
-                            39.1143589
-                        ],
-                        [
-                            -76.8283177,
-                            39.1143365
-                        ],
-                        [
-                            -76.8283073,
-                            39.1142989
-                        ],
-                        [
-                            -76.8282753,
-                            39.114281
-                        ],
-                        [
-                            -76.8284619,
-                            39.1140805
-                        ],
-                        [
-                            -76.8282922,
-                            39.1139854
-                        ],
-                        [
-                            -76.8283744,
-                            39.1138971
-                        ],
-                        [
-                            -76.828067,
-                            39.1137249
-                        ],
-                        [
-                            -76.8281242,
-                            39.1136634
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 115791915,
-                "osm_type": null,
-                "company_name": "Nestle",
-                "entity_type": "Branch",
-                "address": "Maryland, United States",
-                "country_code": "US",
-                "country": "United States"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -87.3843191,
-                            46.5541757
-                        ],
-                        [
-                            -87.3842071,
-                            46.5543601
-                        ],
-                        [
-                            -87.3840502,
-                            46.5543151
-                        ],
-                        [
-                            -87.3841621,
-                            46.5541307
-                        ],
-                        [
-                            -87.3843191,
-                            46.5541757
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 593894553,
-                "osm_type": null,
-                "company_name": "Nestledown Bed and Breakfast",
-                "entity_type": "Branch",
-                "address": "Michigan, United States",
+                "address": "Minnesota, United States",
                 "country_code": "US",
                 "country": "United States"
             }
@@ -7169,131 +4867,75 @@
                 "coordinates": [
                     [
                         [
-                            -81.686143,
-                            35.0559374
+                            -75.6431089,
+                            40.5738191
                         ],
                         [
-                            -81.6865749,
-                            35.0558013
+                            -75.638533,
+                            40.5746564
                         ],
                         [
-                            -81.686489,
-                            35.0556081
+                            -75.6384874,
+                            40.5745016
                         ],
                         [
-                            -81.6866956,
-                            35.0555422
+                            -75.6382148,
+                            40.5745495
                         ],
                         [
-                            -81.6866366,
-                            35.0554215
+                            -75.6382729,
+                            40.5747115
                         ],
                         [
-                            -81.687468,
-                            35.0551514
+                            -75.638474,
+                            40.5746727
                         ],
                         [
-                            -81.6875485,
-                            35.0553095
+                            -75.6384982,
+                            40.5747461
                         ],
                         [
-                            -81.6878033,
-                            35.0552261
+                            -75.6362612,
+                            40.5751495
                         ],
                         [
-                            -81.6877282,
-                            35.0550702
+                            -75.636693,
+                            40.5764981
                         ],
                         [
-                            -81.6883478,
-                            35.054866
+                            -75.6386484,
+                            40.5761396
                         ],
                         [
-                            -81.6883183,
-                            35.0547738
+                            -75.6386922,
+                            40.5762852
                         ],
                         [
-                            -81.6884149,
-                            35.0547342
+                            -75.6391043,
+                            40.5762088
                         ],
                         [
-                            -81.6883049,
-                            35.0544795
+                            -75.6390507,
+                            40.5760683
                         ],
                         [
-                            -81.6884256,
-                            35.0544444
+                            -75.6435461,
+                            40.575231
                         ],
                         [
-                            -81.6880528,
-                            35.0536056
-                        ],
-                        [
-                            -81.6881922,
-                            35.0535617
-                        ],
-                        [
-                            -81.6881466,
-                            35.0534563
-                        ],
-                        [
-                            -81.687004,
-                            35.0538428
-                        ],
-                        [
-                            -81.686886,
-                            35.0535969
-                        ],
-                        [
-                            -81.6866929,
-                            35.0536715
-                        ],
-                        [
-                            -81.6868485,
-                            35.0539943
-                        ],
-                        [
-                            -81.6862289,
-                            35.0542007
-                        ],
-                        [
-                            -81.6861564,
-                            35.0540162
-                        ],
-                        [
-                            -81.6859955,
-                            35.0540645
-                        ],
-                        [
-                            -81.6859767,
-                            35.0540316
-                        ],
-                        [
-                            -81.6859016,
-                            35.0539943
-                        ],
-                        [
-                            -81.6858078,
-                            35.0541019
-                        ],
-                        [
-                            -81.6853732,
-                            35.0542512
-                        ],
-                        [
-                            -81.686143,
-                            35.0559374
+                            -75.6431089,
+                            40.5738191
                         ]
                     ]
                 ]
             },
             "bbox": null,
             "properties": {
-                "osm_id": 727214078,
+                "osm_id": 135345586,
                 "osm_type": null,
-                "company_name": "Nestle Gaffney Prepared Foods",
+                "company_name": "Nestle DC",
                 "entity_type": "Branch",
-                "address": "South Carolina, United States",
+                "address": "Pennsylvania, United States",
                 "country_code": "US",
                 "country": "United States"
             }
@@ -7305,35 +4947,95 @@
                 "coordinates": [
                     [
                         [
-                            -80.2373006,
-                            34.4623482
+                            -75.5709654,
+                            40.6198569
                         ],
                         [
-                            -80.2334595,
-                            34.4611377
+                            -75.5712873,
+                            40.6202518
                         ],
                         [
-                            -80.2315158,
-                            34.4653304
+                            -75.5718774,
+                            40.620207
                         ],
                         [
-                            -80.235357,
-                            34.4665408
+                            -75.5722904,
+                            40.6204717
                         ],
                         [
-                            -80.2373006,
-                            34.4623482
+                            -75.5732614,
+                            40.6204554
+                        ],
+                        [
+                            -75.5739963,
+                            40.6201582
+                        ],
+                        [
+                            -75.5744737,
+                            40.6198609
+                        ],
+                        [
+                            -75.5742431,
+                            40.6190588
+                        ],
+                        [
+                            -75.5746722,
+                            40.6187575
+                        ],
+                        [
+                            -75.5762065,
+                            40.618224
+                        ],
+                        [
+                            -75.5763459,
+                            40.6180367
+                        ],
+                        [
+                            -75.5757344,
+                            40.6179105
+                        ],
+                        [
+                            -75.5752516,
+                            40.6178331
+                        ],
+                        [
+                            -75.5745998,
+                            40.6175379
+                        ],
+                        [
+                            -75.5741626,
+                            40.6172977
+                        ],
+                        [
+                            -75.573653,
+                            40.616921
+                        ],
+                        [
+                            -75.5719708,
+                            40.6186935
+                        ],
+                        [
+                            -75.5710918,
+                            40.6187501
+                        ],
+                        [
+                            -75.5708998,
+                            40.6191996
+                        ],
+                        [
+                            -75.5709654,
+                            40.6198569
                         ]
                     ]
                 ]
             },
             "bbox": null,
             "properties": {
-                "osm_id": 770916254,
+                "osm_id": 624534545,
                 "osm_type": null,
-                "company_name": "Nestle Waters",
+                "company_name": "Nestle Purina Pet Care",
                 "entity_type": "Branch",
-                "address": "South Carolina, United States",
+                "address": "Pennsylvania, United States",
                 "country_code": "US",
                 "country": "United States"
             }
@@ -7401,1255 +5103,243 @@
                 "coordinates": [
                     [
                         [
-                            -91.3751964,
-                            46.5084292
+                            -79.3144709,
+                            36.5721778
                         ],
                         [
-                            -91.3750607,
-                            46.5083756
+                            -79.3135268,
+                            36.5724664
                         ],
                         [
-                            -91.3749581,
-                            46.5083201
+                            -79.3120784,
+                            36.5731945
                         ],
                         [
-                            -91.3748172,
-                            46.5082371
+                            -79.3100801,
+                            36.5739161
                         ],
                         [
-                            -91.3746771,
-                            46.5081271
+                            -79.3099085,
+                            36.5738687
                         ],
                         [
-                            -91.3745511,
-                            46.5079814
+                            -79.3097851,
+                            36.5737438
                         ],
                         [
-                            -91.3744911,
-                            46.5078095
+                            -79.3098548,
+                            36.5730566
                         ],
                         [
-                            -91.3744834,
-                            46.5076294
+                            -79.3097153,
+                            36.5728585
                         ],
                         [
-                            -91.3745295,
-                            46.5073961
+                            -79.3101284,
+                            36.5721131
                         ],
                         [
-                            -91.3746021,
-                            46.5071451
+                            -79.3107587,
+                            36.5718374
                         ],
                         [
-                            -91.3746979,
-                            46.5069935
+                            -79.3105012,
+                            36.5713398
                         ],
                         [
-                            -91.3748575,
-                            46.5068878
+                            -79.3110591,
+                            36.5710835
                         ],
                         [
-                            -91.3750282,
-                            46.5068452
+                            -79.3111852,
+                            36.5713377
                         ],
                         [
-                            -91.3751945,
-                            46.5068147
+                            -79.3114454,
+                            36.5715078
                         ],
                         [
-                            -91.3755634,
-                            46.5068168
+                            -79.3118745,
+                            36.571357
                         ],
                         [
-                            -91.3757841,
-                            46.5068469
+                            -79.312124,
+                            36.5713118
                         ],
                         [
-                            -91.3760289,
-                            46.5069404
+                            -79.3123144,
+                            36.5712493
                         ],
                         [
-                            -91.3761563,
-                            46.5070412
+                            -79.3123439,
+                            36.5712903
                         ],
                         [
-                            -91.3761637,
-                            46.5072303
+                            -79.3129608,
+                            36.5710652
                         ],
                         [
-                            -91.3762373,
-                            46.5073843
+                            -79.3132237,
+                            36.5709865
                         ],
                         [
-                            -91.3764271,
-                            46.507576
+                            -79.3133618,
+                            36.570965
                         ],
                         [
-                            -91.376514,
-                            46.5077212
+                            -79.3135723,
+                            36.5709973
                         ],
                         [
-                            -91.3765094,
-                            46.5078742
+                            -79.3137185,
+                            36.5710565
                         ],
                         [
-                            -91.3763589,
-                            46.508115
+                            -79.3139116,
+                            36.5712461
                         ],
                         [
-                            -91.376236,
-                            46.5083023
-                        ],
-                        [
-                            -91.3761793,
-                            46.5084545
-                        ],
-                        [
-                            -91.3760711,
-                            46.5085879
-                        ],
-                        [
-                            -91.3759649,
-                            46.5086494
-                        ],
-                        [
-                            -91.3758086,
-                            46.5086472
-                        ],
-                        [
-                            -91.3755887,
-                            46.5085901
-                        ],
-                        [
-                            -91.3751964,
-                            46.5084292
+                            -79.3144709,
+                            36.5721778
                         ]
                     ]
                 ]
             },
             "bbox": null,
             "properties": {
-                "osm_id": 34011807,
-                "osm_type": null,
-                "company_name": "Nestle Lake",
-                "entity_type": "Branch",
-                "address": "Wisconsin, United States",
-                "country_code": "US",
-                "country": "United States"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -88.2704857,
-                            42.6661536
-                        ],
-                        [
-                            -88.2710343,
-                            42.6667697
-                        ],
-                        [
-                            -88.2703002,
-                            42.6671231
-                        ],
-                        [
-                            -88.2697893,
-                            42.6665412
-                        ],
-                        [
-                            -88.2697519,
-                            42.6664991
-                        ],
-                        [
-                            -88.2699234,
-                            42.6664219
-                        ],
-                        [
-                            -88.2698398,
-                            42.6663279
-                        ],
-                        [
-                            -88.2696545,
-                            42.6664171
-                        ],
-                        [
-                            -88.2693082,
-                            42.6660282
-                        ],
-                        [
-                            -88.2695095,
-                            42.6659313
-                        ],
-                        [
-                            -88.2696771,
-                            42.6661195
-                        ],
-                        [
-                            -88.2698947,
-                            42.6660147
-                        ],
-                        [
-                            -88.2700666,
-                            42.6662077
-                        ],
-                        [
-                            -88.2699873,
-                            42.6662458
-                        ],
-                        [
-                            -88.2700794,
-                            42.6663492
-                        ],
-                        [
-                            -88.2704857,
-                            42.6661536
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 334447490,
-                "osm_type": null,
-                "company_name": "Nestle Chocolate & Confection",
-                "entity_type": "Branch",
-                "address": "Wisconsin, United States",
-                "country_code": "US",
-                "country": "United States"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -88.2678347,
-                            42.6668129
-                        ],
-                        [
-                            -88.2675684,
-                            42.6665044
-                        ],
-                        [
-                            -88.2674379,
-                            42.6665654
-                        ],
-                        [
-                            -88.2673797,
-                            42.6664979
-                        ],
-                        [
-                            -88.2670715,
-                            42.6666418
-                        ],
-                        [
-                            -88.2669803,
-                            42.6665362
-                        ],
-                        [
-                            -88.2674117,
-                            42.6663348
-                        ],
-                        [
-                            -88.2674022,
-                            42.6663238
-                        ],
-                        [
-                            -88.2673903,
-                            42.6663101
-                        ],
-                        [
-                            -88.2669434,
-                            42.6665189
-                        ],
-                        [
-                            -88.2669295,
-                            42.6665254
-                        ],
-                        [
-                            -88.2670584,
-                            42.6666747
-                        ],
-                        [
-                            -88.2667109,
-                            42.666837
-                        ],
-                        [
-                            -88.2670251,
-                            42.6672007
-                        ],
-                        [
-                            -88.2673727,
-                            42.6670384
-                        ],
-                        [
-                            -88.2674789,
-                            42.6671613
-                        ],
-                        [
-                            -88.2675004,
-                            42.6671512
-                        ],
-                        [
-                            -88.2679526,
-                            42.6669402
-                        ],
-                        [
-                            -88.2679388,
-                            42.6669242
-                        ],
-                        [
-                            -88.2679249,
-                            42.6669081
-                        ],
-                        [
-                            -88.2674916,
-                            42.6671104
-                        ],
-                        [
-                            -88.2674071,
-                            42.6670125
-                        ],
-                        [
-                            -88.2678347,
-                            42.6668129
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 334447526,
-                "osm_type": null,
-                "company_name": "Nestle Chocolate & Confection",
-                "entity_type": "Branch",
-                "address": "Wisconsin, United States",
-                "country_code": "US",
-                "country": "United States"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -88.2675851,
-                            42.6645777
-                        ],
-                        [
-                            -88.2665514,
-                            42.6650761
-                        ],
-                        [
-                            -88.2675689,
-                            42.6662451
-                        ],
-                        [
-                            -88.2685356,
-                            42.6673555
-                        ],
-                        [
-                            -88.2688747,
-                            42.667192
-                        ],
-                        [
-                            -88.2690108,
-                            42.6671264
-                        ],
-                        [
-                            -88.2691391,
-                            42.6672705
-                        ],
-                        [
-                            -88.2693425,
-                            42.6671725
-                        ],
-                        [
-                            -88.2692719,
-                            42.6670932
-                        ],
-                        [
-                            -88.2696405,
-                            42.6669159
-                        ],
-                        [
-                            -88.2694516,
-                            42.6667036
-                        ],
-                        [
-                            -88.2695876,
-                            42.6666382
-                        ],
-                        [
-                            -88.2696607,
-                            42.666603
-                        ],
-                        [
-                            -88.2697074,
-                            42.6665806
-                        ],
-                        [
-                            -88.2697893,
-                            42.6665412
-                        ],
-                        [
-                            -88.2697519,
-                            42.6664991
-                        ],
-                        [
-                            -88.2696695,
-                            42.6665386
-                        ],
-                        [
-                            -88.2696238,
-                            42.6665606
-                        ],
-                        [
-                            -88.269549,
-                            42.6665965
-                        ],
-                        [
-                            -88.2694669,
-                            42.6666359
-                        ],
-                        [
-                            -88.2692144,
-                            42.6663516
-                        ],
-                        [
-                            -88.2691749,
-                            42.6663705
-                        ],
-                        [
-                            -88.2681916,
-                            42.6652619
-                        ],
-                        [
-                            -88.268238,
-                            42.6652396
-                        ],
-                        [
-                            -88.2679291,
-                            42.6648922
-                        ],
-                        [
-                            -88.2678846,
-                            42.6649137
-                        ],
-                        [
-                            -88.2675851,
-                            42.6645777
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 334447527,
-                "osm_type": null,
-                "company_name": "Nestle Chocolate & Confection",
-                "entity_type": "Branch",
-                "address": "Wisconsin, United States",
-                "country_code": "US",
-                "country": "United States"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -92.5381141,
-                            44.6026989
-                        ],
-                        [
-                            -92.5339629,
-                            44.600472
-                        ],
-                        [
-                            -92.5329577,
-                            44.6014403
-                        ],
-                        [
-                            -92.5330297,
-                            44.6036633
-                        ],
-                        [
-                            -92.5345104,
-                            44.6043565
-                        ],
-                        [
-                            -92.5351458,
-                            44.6046284
-                        ],
-                        [
-                            -92.5354577,
-                            44.6047238
-                        ],
-                        [
-                            -92.5358221,
-                            44.6048255
-                        ],
-                        [
-                            -92.5361136,
-                            44.6048857
-                        ],
-                        [
-                            -92.5364284,
-                            44.6049334
-                        ],
-                        [
-                            -92.5369181,
-                            44.6049853
-                        ],
-                        [
-                            -92.537504,
-                            44.6049998
-                        ],
-                        [
-                            -92.5378042,
-                            44.6049874
-                        ],
-                        [
-                            -92.5378858,
-                            44.6049687
-                        ],
-                        [
-                            -92.5379441,
-                            44.6049272
-                        ],
-                        [
-                            -92.5379762,
-                            44.6048815
-                        ],
-                        [
-                            -92.5379937,
-                            44.6048234
-                        ],
-                        [
-                            -92.5380053,
-                            44.6044665
-                        ],
-                        [
-                            -92.5381141,
-                            44.6026989
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 481145934,
-                "osm_type": null,
-                "company_name": "Nestle-Purina",
-                "entity_type": "Branch",
-                "address": "Wisconsin, United States",
-                "country_code": "US",
-                "country": "United States"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -88.8081496,
-                            42.9961829
-                        ],
-                        [
-                            -88.8085358,
-                            42.9950946
-                        ],
-                        [
-                            -88.8093814,
-                            42.9950827
-                        ],
-                        [
-                            -88.8093685,
-                            42.9951252
-                        ],
-                        [
-                            -88.8093574,
-                            42.9951616
-                        ],
-                        [
-                            -88.8093001,
-                            42.9953503
-                        ],
-                        [
-                            -88.8103246,
-                            42.9955644
-                        ],
-                        [
-                            -88.8097229,
-                            42.997286
-                        ],
-                        [
-                            -88.8094952,
-                            42.9972414
-                        ],
-                        [
-                            -88.8095644,
-                            42.9970719
-                        ],
-                        [
-                            -88.8091578,
-                            42.9969738
-                        ],
-                        [
-                            -88.8092066,
-                            42.9967597
-                        ],
-                        [
-                            -88.80867,
-                            42.9966378
-                        ],
-                        [
-                            -88.808796,
-                            42.9963196
-                        ],
-                        [
-                            -88.8081496,
-                            42.9961829
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 511867104,
-                "osm_type": null,
-                "company_name": "Nestle Purina Pet Care Co",
-                "entity_type": "Branch",
-                "address": "Wisconsin, United States",
-                "country_code": "US",
-                "country": "United States"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -88.3265372,
-                            44.285695
-                        ],
-                        [
-                            -88.3265044,
-                            44.2864859
-                        ],
-                        [
-                            -88.3258277,
-                            44.2864714
-                        ],
-                        [
-                            -88.3258257,
-                            44.2865206
-                        ],
-                        [
-                            -88.3257914,
-                            44.2865199
-                        ],
-                        [
-                            -88.325793,
-                            44.2864814
-                        ],
-                        [
-                            -88.3255648,
-                            44.2864765
-                        ],
-                        [
-                            -88.3255768,
-                            44.2861861
-                        ],
-                        [
-                            -88.3254981,
-                            44.2861844
-                        ],
-                        [
-                            -88.3255007,
-                            44.2861215
-                        ],
-                        [
-                            -88.3254717,
-                            44.2861208
-                        ],
-                        [
-                            -88.3254753,
-                            44.2860349
-                        ],
-                        [
-                            -88.3255828,
-                            44.2860372
-                        ],
-                        [
-                            -88.3256031,
-                            44.285549
-                        ],
-                        [
-                            -88.3255619,
-                            44.285503
-                        ],
-                        [
-                            -88.3253754,
-                            44.28553
-                        ],
-                        [
-                            -88.3253996,
-                            44.2856162
-                        ],
-                        [
-                            -88.325313,
-                            44.2856287
-                        ],
-                        [
-                            -88.3252875,
-                            44.285548
-                        ],
-                        [
-                            -88.3248735,
-                            44.2856087
-                        ],
-                        [
-                            -88.3248835,
-                            44.2856508
-                        ],
-                        [
-                            -88.3248625,
-                            44.2856535
-                        ],
-                        [
-                            -88.3248931,
-                            44.2857549
-                        ],
-                        [
-                            -88.3247076,
-                            44.2857839
-                        ],
-                        [
-                            -88.3247228,
-                            44.2858343
-                        ],
-                        [
-                            -88.3245094,
-                            44.2858676
-                        ],
-                        [
-                            -88.324499,
-                            44.2858332
-                        ],
-                        [
-                            -88.3244641,
-                            44.2858386
-                        ],
-                        [
-                            -88.3244522,
-                            44.2857991
-                        ],
-                        [
-                            -88.3242698,
-                            44.2858275
-                        ],
-                        [
-                            -88.3242441,
-                            44.2857425
-                        ],
-                        [
-                            -88.3242139,
-                            44.2857473
-                        ],
-                        [
-                            -88.3241936,
-                            44.2857388
-                        ],
-                        [
-                            -88.3241867,
-                            44.2857097
-                        ],
-                        [
-                            -88.3239549,
-                            44.2857446
-                        ],
-                        [
-                            -88.3239403,
-                            44.2856835
-                        ],
-                        [
-                            -88.3239247,
-                            44.2856868
-                        ],
-                        [
-                            -88.3238907,
-                            44.2855792
-                        ],
-                        [
-                            -88.3234872,
-                            44.2856363
-                        ],
-                        [
-                            -88.3235202,
-                            44.2858073
-                        ],
-                        [
-                            -88.3233189,
-                            44.2858361
-                        ],
-                        [
-                            -88.3233196,
-                            44.2858467
-                        ],
-                        [
-                            -88.3231682,
-                            44.2858723
-                        ],
-                        [
-                            -88.323115,
-                            44.2856716
-                        ],
-                        [
-                            -88.3230588,
-                            44.2856793
-                        ],
-                        [
-                            -88.3230557,
-                            44.2856597
-                        ],
-                        [
-                            -88.3230042,
-                            44.2856669
-                        ],
-                        [
-                            -88.32314,
-                            44.2861642
-                        ],
-                        [
-                            -88.3216774,
-                            44.2863782
-                        ],
-                        [
-                            -88.3216499,
-                            44.2862833
-                        ],
-                        [
-                            -88.3217192,
-                            44.2862729
-                        ],
-                        [
-                            -88.3216542,
-                            44.2860484
-                        ],
-                        [
-                            -88.3217103,
-                            44.28604
-                        ],
-                        [
-                            -88.3215665,
-                            44.2855443
-                        ],
-                        [
-                            -88.3219858,
-                            44.2854815
-                        ],
-                        [
-                            -88.3219705,
-                            44.2854288
-                        ],
-                        [
-                            -88.3217725,
-                            44.2854584
-                        ],
-                        [
-                            -88.321748,
-                            44.2853738
-                        ],
-                        [
-                            -88.3219513,
-                            44.2853434
-                        ],
-                        [
-                            -88.3219354,
-                            44.2852888
-                        ],
-                        [
-                            -88.3227963,
-                            44.28516
-                        ],
-                        [
-                            -88.3227728,
-                            44.2850789
-                        ],
-                        [
-                            -88.3226847,
-                            44.2850921
-                        ],
-                        [
-                            -88.3226858,
-                            44.2850962
-                        ],
-                        [
-                            -88.3227058,
-                            44.2850932
-                        ],
-                        [
-                            -88.3227108,
-                            44.2851104
-                        ],
-                        [
-                            -88.3226899,
-                            44.2851135
-                        ],
-                        [
-                            -88.3226918,
-                            44.2851198
-                        ],
-                        [
-                            -88.3221019,
-                            44.285208
-                        ],
-                        [
-                            -88.3220783,
-                            44.2851267
-                        ],
-                        [
-                            -88.3226674,
-                            44.2850435
-                        ],
-                        [
-                            -88.3226731,
-                            44.2850646
-                        ],
-                        [
-                            -88.3227664,
-                            44.2850514
-                        ],
-                        [
-                            -88.3227474,
-                            44.2849818
-                        ],
-                        [
-                            -88.3231103,
-                            44.2849306
-                        ],
-                        [
-                            -88.3231041,
-                            44.2849078
-                        ],
-                        [
-                            -88.3232445,
-                            44.284888
-                        ],
-                        [
-                            -88.3232455,
-                            44.2848919
-                        ],
-                        [
-                            -88.3239885,
-                            44.284787
-                        ],
-                        [
-                            -88.3239692,
-                            44.2847164
-                        ],
-                        [
-                            -88.325117,
-                            44.2845543
-                        ],
-                        [
-                            -88.3251862,
-                            44.2848068
-                        ],
-                        [
-                            -88.3251578,
-                            44.2848108
-                        ],
-                        [
-                            -88.3251875,
-                            44.2849192
-                        ],
-                        [
-                            -88.3251981,
-                            44.2849177
-                        ],
-                        [
-                            -88.3252136,
-                            44.2849573
-                        ],
-                        [
-                            -88.3252253,
-                            44.2849567
-                        ],
-                        [
-                            -88.3252465,
-                            44.2850316
-                        ],
-                        [
-                            -88.3253226,
-                            44.2850199
-                        ],
-                        [
-                            -88.3251883,
-                            44.2845355
-                        ],
-                        [
-                            -88.3258142,
-                            44.2844457
-                        ],
-                        [
-                            -88.3257965,
-                            44.2843728
-                        ],
-                        [
-                            -88.3263865,
-                            44.2842835
-                        ],
-                        [
-                            -88.3264278,
-                            44.2844388
-                        ],
-                        [
-                            -88.3263611,
-                            44.2844496
-                        ],
-                        [
-                            -88.326387,
-                            44.2845615
-                        ],
-                        [
-                            -88.3263974,
-                            44.2845592
-                        ],
-                        [
-                            -88.3264237,
-                            44.2846523
-                        ],
-                        [
-                            -88.3264182,
-                            44.2846528
-                        ],
-                        [
-                            -88.3264274,
-                            44.2847078
-                        ],
-                        [
-                            -88.3265374,
-                            44.28469
-                        ],
-                        [
-                            -88.3265969,
-                            44.2849064
-                        ],
-                        [
-                            -88.3263744,
-                            44.2849391
-                        ],
-                        [
-                            -88.3263698,
-                            44.2849285
-                        ],
-                        [
-                            -88.326291,
-                            44.2849393
-                        ],
-                        [
-                            -88.3263724,
-                            44.2852263
-                        ],
-                        [
-                            -88.3263381,
-                            44.2852313
-                        ],
-                        [
-                            -88.3263463,
-                            44.2852728
-                        ],
-                        [
-                            -88.3263114,
-                            44.2852767
-                        ],
-                        [
-                            -88.3263296,
-                            44.2853389
-                        ],
-                        [
-                            -88.3261899,
-                            44.285365
-                        ],
-                        [
-                            -88.3261856,
-                            44.2853502
-                        ],
-                        [
-                            -88.3261283,
-                            44.2853613
-                        ],
-                        [
-                            -88.3261109,
-                            44.2853061
-                        ],
-                        [
-                            -88.325629,
-                            44.2853731
-                        ],
-                        [
-                            -88.3256481,
-                            44.2854802
-                        ],
-                        [
-                            -88.3257064,
-                            44.2855492
-                        ],
-                        [
-                            -88.326218,
-                            44.2855606
-                        ],
-                        [
-                            -88.3262152,
-                            44.2856275
-                        ],
-                        [
-                            -88.326203,
-                            44.2856272
-                        ],
-                        [
-                            -88.3262022,
-                            44.2856445
-                        ],
-                        [
-                            -88.3262149,
-                            44.2856447
-                        ],
-                        [
-                            -88.326213,
-                            44.2856878
-                        ],
-                        [
-                            -88.3265372,
-                            44.285695
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 583566799,
-                "osm_type": null,
-                "company_name": "Nestle Pizza",
-                "entity_type": "Branch",
-                "address": "Wisconsin, United States",
-                "country_code": "US",
-                "country": "United States"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            -88.3059489,
-                            44.3083111
-                        ],
-                        [
-                            -88.3102674,
-                            44.3083271
-                        ],
-                        [
-                            -88.3124336,
-                            44.3083351
-                        ],
-                        [
-                            -88.3125873,
-                            44.3083331
-                        ],
-                        [
-                            -88.3126432,
-                            44.3083231
-                        ],
-                        [
-                            -88.312702,
-                            44.308297
-                        ],
-                        [
-                            -88.3127522,
-                            44.3082651
-                        ],
-                        [
-                            -88.3127774,
-                            44.3082351
-                        ],
-                        [
-                            -88.312797,
-                            44.3081571
-                        ],
-                        [
-                            -88.312797,
-                            44.3077151
-                        ],
-                        [
-                            -88.3128026,
-                            44.307271
-                        ],
-                        [
-                            -88.3127886,
-                            44.307001
-                        ],
-                        [
-                            -88.3127858,
-                            44.306601
-                        ],
-                        [
-                            -88.3127828,
-                            44.3064298
-                        ],
-                        [
-                            -88.3127821,
-                            44.306169
-                        ],
-                        [
-                            -88.3121746,
-                            44.3061678
-                        ],
-                        [
-                            -88.3115336,
-                            44.3057368
-                        ],
-                        [
-                            -88.3108404,
-                            44.3062649
-                        ],
-                        [
-                            -88.3059119,
-                            44.3062449
-                        ],
-                        [
-                            -88.3059489,
-                            44.3083111
-                        ]
-                    ]
-                ]
-            },
-            "bbox": null,
-            "properties": {
-                "osm_id": 765285211,
+                "osm_id": 736898059,
                 "osm_type": null,
                 "company_name": "Nestle USA",
                 "entity_type": "Branch",
-                "address": "Wisconsin, United States",
+                "address": "Virginia, United States",
+                "country_code": "US",
+                "country": "United States"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -117.3397645,
+                            47.6718673
+                        ],
+                        [
+                            -117.3382142,
+                            47.6721987
+                        ],
+                        [
+                            -117.3380506,
+                            47.6722457
+                        ],
+                        [
+                            -117.3382518,
+                            47.6726376
+                        ],
+                        [
+                            -117.3381794,
+                            47.6726556
+                        ],
+                        [
+                            -117.3382035,
+                            47.6727044
+                        ],
+                        [
+                            -117.3385146,
+                            47.6726394
+                        ],
+                        [
+                            -117.3384449,
+                            47.6724868
+                        ],
+                        [
+                            -117.3395231,
+                            47.6722529
+                        ],
+                        [
+                            -117.3395513,
+                            47.6723107
+                        ],
+                        [
+                            -117.3399416,
+                            47.672233
+                        ],
+                        [
+                            -117.3397645,
+                            47.6718673
+                        ]
+                    ]
+                ]
+            },
+            "bbox": null,
+            "properties": {
+                "osm_id": 495849102,
+                "osm_type": null,
+                "company_name": "Purina",
+                "entity_type": "Branch",
+                "address": "Washington, United States",
+                "country_code": "US",
+                "country": "United States"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -122.4861717,
+                            47.2117921
+                        ],
+                        [
+                            -122.4862065,
+                            47.212278
+                        ],
+                        [
+                            -122.4861535,
+                            47.21228
+                        ],
+                        [
+                            -122.4860608,
+                            47.2122832
+                        ],
+                        [
+                            -122.4860363,
+                            47.211971
+                        ],
+                        [
+                            -122.4859982,
+                            47.2119724
+                        ],
+                        [
+                            -122.4859914,
+                            47.2118849
+                        ],
+                        [
+                            -122.485866,
+                            47.2118895
+                        ],
+                        [
+                            -122.4858583,
+                            47.2117912
+                        ],
+                        [
+                            -122.4861717,
+                            47.2117921
+                        ]
+                    ]
+                ]
+            },
+            "bbox": null,
+            "properties": {
+                "osm_id": 1035137323,
+                "osm_type": null,
+                "company_name": "Nestle DSD",
+                "entity_type": "Branch",
+                "address": "Washington, United States",
                 "country_code": "US",
                 "country": "United States"
             }
