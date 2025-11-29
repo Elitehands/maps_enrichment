@@ -1,0 +1,5 @@
+.env
+.vscode/
+DATABASE.xlsx
+SW7_.csv
+vercel.json

@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+openlocationcode
+requests
+pandas
+shapely
+pycountry
+sqlalchemy
+psycopg2-binary
+geoalchemy2
+python-dotenv
