@@ -10,7 +10,7 @@ from api.routes.geodata import router as polygon_router
 from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
 from api.config import GEODATA_PATH, LOCATIONS_PATH_EXCEL, LOCATIONS_PATH_CSV
-
+from api.lifecycle import poc_sheets_with_metadata
 
 async def load_geodata_excel():
     if not os.path.exists(GEODATA_PATH):
@@ -70,24 +70,25 @@ async def get_us_locations(filter: str):
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     if not os.path.exists(GEODATA_PATH):
-        output = {}
-        csv_data = await load_geodata_csv()
-        overpass_data = await get_us_locations("^(Nestl(e[\u0301]?|é)( |$).*|Purina$|Nespresso$)")
+        poc_sheets_with_metadata()
+        # output = {}
+        # csv_data = await load_geodata_csv()
+        # overpass_data = await get_us_locations("^(Nestl(e[\u0301]?|é)( |$).*|Purina$|Nespresso$)")
         
-        for feature in csv_data:
-            output['type'] = "FeatureCollection"
-            if 'features' not in output:
-                output['features'] = []
-            output['features'].append(feature)
+        # for feature in csv_data:
+        #     output['type'] = "FeatureCollection"
+        #     if 'features' not in output:
+        #         output['features'] = []
+        #     output['features'].append(feature)
 
-        for feature in overpass_data:
-            output['type'] = "FeatureCollection"
-            if 'features' not in output:
-                output['features'] = []
-            output['features'].append(feature)
+        # for feature in overpass_data:
+        #     output['type'] = "FeatureCollection"
+        #     if 'features' not in output:
+        #         output['features'] = []
+        #     output['features'].append(feature)
 
-        with open(GEODATA_PATH, "w") as geocode:
-            json.dump(output, geocode, indent=4)
+        # with open(GEODATA_PATH, "w") as geocode:
+        #     json.dump(output, geocode, indent=4)
     yield
 
 app = FastAPI(lifespan=lifespan)

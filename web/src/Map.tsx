@@ -7,13 +7,25 @@ import { useMap } from './context/MapContext/MapContext';
 import type { FeatureCollection, Geometry, GeoJsonProperties } from 'geojson';
 
 function addMarkers(data: FeatureCollection<Geometry, GeoJsonProperties> | null, map: MapLibreMap) {
+    const normalisePropTag = (val: string) =>
+        val
+            .split("_")
+            .map(word => word[0].toUpperCase() + word.slice(1))
+            .join(" ");
+
+
     data?.features.forEach(feature => {
+        const properties = (() => {
+            if (!feature.properties) return "";
+            const excludeList = ["osm_id", "osm_type", "country_code", "country"]
+            return Object.entries(feature.properties)
+                .filter(([key]) => !excludeList.includes(key))
+                .map(([key, value]) => `${normalisePropTag(key)}: ${value ?? ""}`)
+                .join("<br/>");
+        })();
+
         const center = centroid(feature.geometry)
-        const popup = new maplibregl.Popup({ offset: 25 }).setHTML(
-            `Company Name: ${feature.properties?.company_name || 'N/A'}<br/>
-             Entity Type: ${feature.properties?.entity_type || 'N/A'}<br/>
-                 `
-        );
+        const popup = new maplibregl.Popup({ offset: 25 }).setHTML(properties);
         new maplibregl.Marker()
             .setLngLat(center.geometry.coordinates as [number, number])
             .setPopup(popup)
@@ -39,8 +51,7 @@ export default function Map() {
                 source: 'company-locations',
                 paint: {
                     'line-color': 'black',
-                    'line-width': 1,
-                    "line-blur": 0.4,
+                    'line-width': 1.5,
                 },
             })
         if (!map.getLayer('company-locations-fill-layer'))
@@ -49,8 +60,8 @@ export default function Map() {
                 type: 'fill',
                 source: 'company-locations',
                 paint: {
-                    'fill-color': 'red',
-                    'fill-opacity': 0.5,
+                    'fill-color': 'gray',
+                    'fill-opacity': 0.1,
                 }
             });
     }, [map, geojson])

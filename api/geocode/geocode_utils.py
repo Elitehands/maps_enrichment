@@ -13,6 +13,7 @@ NOMINATIM_REVERSE_GEOCODING_URL = "https://nominatim.openstreetmap.org/reverse"
 UNITED_KINGDOM_POSTCODES_API_URL = "https://api.postcodes.io/postcodes/"
 OVERPASS_API_URL = "https://overpass.private.coffee/api/interpreter"
 
+
 # Types
 class Geometry(BaseModel):
     type: str
@@ -27,6 +28,7 @@ class Properties(BaseModel):
     country_code: str | None = None
     country: str | None = None
 
+
 class GeoData(BaseModel):
     type: str = "Feature"
     geometry: Geometry
@@ -37,18 +39,16 @@ class GeoData(BaseModel):
 def overpass_fetch_nearest_feature(lat: float, lon: float, radius: int = 30) -> GeoData | None:
     query = f"""
                 [out:json];
-                (
-                    way["building"](around:{radius},{lat},{lon});
-                    relation["building"](around:{radius},{lat},{lon});
-                    way["landuse"~"industrial|commercial"](around:{radius},{lat},{lon});
-                    relation["landuse"~"industrial|commercial"](around:{radius},{lat},{lon});
-                );
+            (
+                way(around:{radius},{lat},{lon})[!"highway"][!"natural"][!"waterway"][!"amenity"];
+                relation(around:{radius},{lat},{lon})[!"highway"][!"natural"][!"waterway"][!"amenity"];
+            );
                 out geom;
             """
     try:
         # Create point object to test if within returned geometries
         point = Point(lon, lat)  # Longitude before latitude for shapely don't forget!
-        response = fetch.get(OVERPASS_API_URL, params={"data": query}, timeout=25)
+        response = fetch.get(OVERPASS_API_URL, params={"data": query}, timeout=150)
         response.raise_for_status()
         data = response.json()
 
@@ -83,7 +83,7 @@ def overpass_fetch_nearest_feature(lat: float, lon: float, radius: int = 30) -> 
                 if geom and coords:
                 #  Check if point is within the geometry
                     if geom.contains(point):
-                        props = Properties(osm_id=el.get("id", ""))
+                        props = Properties(osm_id=el.get("id", ""), osm_type=el.get("type", ""))
                         print(f'Feature Type: {geom.geom_type}, OSM ID: {el.get("id", "")}')
                         return GeoData(properties=props, geometry=Geometry(type=geom.geom_type, coordinates=[coords]))
                 
@@ -300,3 +300,66 @@ def overpass_get_locations(country_code: str, regex: str, timeout: int = 1200) -
         return features
     except Exception as e:
         print(f"An error has occured: {e}")
+
+def google_plus_code_decoder(pluscode:str, api_key:str):
+    try:
+        response = fetch.get(f"https://maps.googleapis.com/maps/api/geocode/json?address={pluscode}&key={api_key}")
+        response.raise_for_status()
+        data = response.json()
+
+        results = data.get("results", [None])
+        if not results:
+            raise ValueError("No results returned")
+        
+        geometry = results[0].get("geometry", {})
+        location = geometry.get("location", {})
+        
+        return [location["lat"], location["lng"]]
+    except Exception as e:
+        print(e)
+
+def google_geocode_area_text(area_text:str, api_key:str):
+    try:
+        response = fetch.get(f"https://maps.googleapis.com/maps/api/geocode/json?address={area_text}&key={api_key}")
+        response.raise_for_status()
+        data = response.json()
+
+        results = data.get("results", [None])
+        if not results:
+            raise ValueError("No results returned")
+        
+        geometry = results[0].get("geometry", {})
+        location = geometry.get("location", {})
+        
+        return [location["lat"], location["lng"]]
+    except Exception as e:
+        print(e)
+
+def google_geocode_region_from_coords(lat: int, lon:int, api_key:str):
+    try: 
+        data = fetch.get(f"https://maps.googleapis.com/maps/api/geocode/json?latlng={lat},{lon}&key={api_key}")
+        data.raise_for_status()
+        data = data.json()
+        results = data.get("results", [])
+
+        city_address = None
+        country_address = None
+        country_short = None
+
+        for r in results:
+            types = r.get("types", [])
+            
+            if "locality" in types:
+                city_address = r["formatted_address"]
+
+            if "country" in types:
+                country_address = r["formatted_address"]
+                # extract the short country code (e.g. "GB", "US")
+                for comp in r["address_components"]:
+                    if "country" in comp["types"]:
+                        country_short = comp["short_name"]
+                        break
+
+        return [city_address, country_address, country_short]
+    except Exception as e:  
+        print(e)
