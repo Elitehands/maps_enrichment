@@ -85,7 +85,4 @@ def poc_sheets_with_metadata():
     with open("out/geodata.json", "w") as geocode:
         json.dump(output, geocode, indent=4)
     
-
-poc_sheets_with_metadata()
-
 __all__ = ["poc_sheets_with_metadata"]
