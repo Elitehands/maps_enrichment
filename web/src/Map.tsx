@@ -61,7 +61,7 @@ export default function Map() {
                 source: 'company-locations',
                 paint: {
                     'fill-color': 'gray',
-                    'fill-opacity': 0.1,
+                    'fill-opacity': 0.25,
                 }
             });
     }, [map, geojson])

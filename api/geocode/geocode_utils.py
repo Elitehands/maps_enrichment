@@ -5,8 +5,8 @@ from pydantic import BaseModel
 from pathlib import Path
 from typing import List, Literal, Union
 from openlocationcode import openlocationcode as olc
-from shapely import MultiPolygon
-from shapely.geometry import Point, Polygon
+from shapely import MultiPoint, MultiPolygon
+from shapely.geometry import Point as Shapely_Point, Polygon
 
 # Constants
 NOMINATIM_REVERSE_GEOCODING_URL = "https://nominatim.openstreetmap.org/reverse"
@@ -28,26 +28,30 @@ class Properties(BaseModel):
     country_code: str | None = None
     country: str | None = None
 
+class Point(BaseModel):
+    type: Literal["Point"] = "Point"
+    coordinates: tuple[float, float]
 
-class GeoData(BaseModel):
+class Feature(BaseModel):
     type: str = "Feature"
     geometry: Geometry
+    center: Point | None = None
     bbox: list[float] | None = None
     properties: Properties
 
 
-def overpass_fetch_nearest_feature(lat: float, lon: float, radius: int = 30) -> GeoData | None:
+def overpass_fetch_nearest_feature(lat: float, lon: float, radius: int = 30) -> Feature | None:
     query = f"""
                 [out:json];
             (
                 way(around:{radius},{lat},{lon})[!"highway"][!"natural"][!"waterway"][!"amenity"];
                 relation(around:{radius},{lat},{lon})[!"highway"][!"natural"][!"waterway"][!"amenity"];
             );
-                out geom;
+                out center geom;
             """
     try:
         # Create point object to test if within returned geometries
-        point = Point(lon, lat)  # Longitude before latitude for shapely don't forget!
+        point = Shapely_Point(lon, lat)  # Longitude before latitude for shapely don't forget!
         response = fetch.get(OVERPASS_API_URL, params={"data": query}, timeout=150)
         response.raise_for_status()
         data = response.json()
@@ -83,9 +87,17 @@ def overpass_fetch_nearest_feature(lat: float, lon: float, radius: int = 30) -> 
                 if geom and coords:
                 #  Check if point is within the geometry
                     if geom.contains(point):
+                        geometry = el.get("geometry")
+                        polygon_cords = [(node["lon"], node["lat"]) for node in geometry]
+  
+                        centroid = MultiPoint(polygon_cords).centroid
+
+                        clat = centroid.y
+                        clon = centroid.x
+
                         props = Properties(osm_id=el.get("id", ""), osm_type=el.get("type", ""))
                         print(f'Feature Type: {geom.geom_type}, OSM ID: {el.get("id", "")}')
-                        return GeoData(properties=props, geometry=Geometry(type=geom.geom_type, coordinates=[coords]))
+                        return Feature(properties=props, geometry=Geometry(type=geom.geom_type, coordinates=[coords]), center=Point(type="Point", coordinates=(clon,clat)))
                 
                 continue
     except Exception as e:
@@ -149,7 +161,7 @@ def get_filtered_dataset(file: Path | str, filter: str, file_type: Literal["csv"
             except Exception as e:
                 print("An error occured:", e)
 
-def geocode_nominatim_boundary(lat: float, lon: float) -> GeoData | None:
+def geocode_nominatim_boundary(lat: float, lon: float) -> Feature | None:
     options = {
         "params": {
             "lat": lat,
@@ -210,20 +222,22 @@ def geocode_nominatim_boundary(lat: float, lon: float) -> GeoData | None:
                 country=country,
             )
 
+
+
             # Only use polygon data and no converting bbox to polygon, yet...
             if not geometry.get("type") == "Polygon":
-                message =message=f"Dropped:{geometry['type']}"
+                message=f"Dropped:{geometry['type']}"
                 print(message)
                 return
 
-            return GeoData(geometry=Geometry(**geometry), bbox=bbox, properties=props)
+            return Feature(geometry=Geometry(**geometry), bbox=bbox, properties=props)
         
     except Exception as e:
         print(f"An error has occured: , {e}")
 
     print("No operation performed")
 
-def overpass_get_locations(country_code: str, regex: str, timeout: int = 1200) -> list[GeoData] | None:
+def overpass_get_locations(country_code: str, regex: str, timeout: int = 600) -> list[Feature] | None:
     query = """
             [out:json][timeout:{timeout}];
             area["ISO3166-2"="{country_code}"]->.searchArea;
@@ -233,7 +247,7 @@ def overpass_get_locations(country_code: str, regex: str, timeout: int = 1200) -
             relation["brand"~"{name}"]["highway"!~"."](area.searchArea);
             relation["name"~"{name}"]["highway"!~"."](area.searchArea);
             );
-            out geom;
+            out center geom;
             """
     query = query.format(timeout=timeout, country_code=country_code, name=regex)
     
@@ -292,8 +306,17 @@ def overpass_get_locations(country_code: str, regex: str, timeout: int = 1200) -
                             country=country,
                             address=address
                             )
+                        
+                        geometry = el.get("geometry")
+                        polygon_cords = [(node["lon"], node["lat"]) for node in geometry]
+  
+                        centroid = MultiPoint(polygon_cords).centroid
+
+                        clat = centroid.y
+                        clon = centroid.x
+                        
                         print(f'Feature Type: {geom_type}, OSM ID: {el.get("id", "")}')
-                        geodata = GeoData(properties=props, geometry=Geometry(type=geom_type, coordinates=[coords]))
+                        geodata = Feature(properties=props, geometry=Geometry(type=geom_type, coordinates=[coords]), center=Point(type="Point", coordinates=(clon,clat)))
                         features.append(geodata)
                         count += 1
         print(f'Found: {count}')
